@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false,
+    "vsicons.projectDetection.disableDetect": true,
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": -1,
+    "csharp.referencesCodeLens.enabled": false
+}

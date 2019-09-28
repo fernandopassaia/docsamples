@@ -1,0 +1,9 @@
+<ConexaoBD>
+  <SERVIDOR>YourComputerName</SERVIDOR>
+  <INSTANCIA>InstanceName</INSTANCIA>
+  <SERVICOSQL>SQL Server (InstanceName2014)</SERVICOSQL>
+  <BASEDADOS>YourDataBaseName</BASEDADOS>
+  <ACEITACONEXOESSEGURAS>true</ACEITACONEXOESSEGURAS>
+  <USUARIO>sa</USUARIO>
+  <SENHA>yourpassword</SENHA>
+</ConexaoBD>

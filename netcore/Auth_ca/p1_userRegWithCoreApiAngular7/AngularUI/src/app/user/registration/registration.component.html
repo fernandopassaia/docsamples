@@ -1,0 +1,54 @@
+<div class="row mt-4">
+  
+  <div class="col-md-6"> <!-- First Space of 6 for the ASPNET CORE Text -->
+    <div class="row" style="height: 450px;">
+      <div class="col-md-12 my-auto side-header">
+        <img src="/assets/img/add_user.png" class="mx-auto d-block">
+        <h2>Fidelitas User Registration Test</h2>
+        <p><em>-Using <strong>AspNet Core WebApi + IdentityServer + Asp.Net Core Web API</strong> and <strong> Angular 7 + Xamarin as UI</strong></em></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-6"> <!-- Second Space of 6 for the FORM Text -->
+
+    <!-- service.FormModel is injected in my Registration.Component and cames from shared/user.service.ts-->
+    <!-- once i Inject my formModel (user.service) i had to put here same components: UserName, Email, FullName,
+    PassWords (second group, with 2 fields Password and ConfirmPassword) -->
+    <form [formGroup]="service.formModel" autocomplete="off" (submit)="onSubmit()">
+      <div class="form-group required">
+        <label>Username</label>
+        <input class="form-control" formControlName="UserName"> <!-- formControlName needs to MATCH with the exact name on Service! -->
+        <label class="text-danger" *ngIf="service.formModel.get('UserName').touched && service.formModel.get('UserName').errors?.required">This field is mandatory.</label>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" formControlName="Email">
+        <label class="text-danger" *ngIf="service.formModel.get('Email').touched && service.formModel.get('Email').errors?.email">Invalid email address.</label>
+      </div>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input class="form-control" formControlName="FullName">
+      </div>
+      <div formGroupName="Passwords">
+        <div class="form-group required">
+          <label>Password</label>
+          <input type="password" class="form-control" formControlName="Password">
+          <label class="text-danger" *ngIf="service.formModel.get('Passwords.Password').touched && service.formModel.get('Passwords.Password').errors?.required">This field is mandatory.</label>
+          <label class="text-danger" *ngIf="service.formModel.get('Passwords.Password').touched && service.formModel.get('Passwords.Password').errors?.minlength">Minimum 4 characters required.</label>
+        </div>
+        <div class="form-group required">
+          <label>Confirm Password</label>
+          <input type="password" class="form-control" formControlName="ConfirmPassword">
+          <label class="text-danger" *ngIf="service.formModel.get('Passwords.ConfirmPassword').touched && service.formModel.get('Passwords.ConfirmPassword').errors?.required">This field is mandatory.</label>
+          <label class="text-danger" *ngIf="service.formModel.get('Passwords.ConfirmPassword').touched && service.formModel.get('Passwords.ConfirmPassword').errors?.passwordMismatch">Confirm Password does not match.</label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-8 offset-md-2">
+          <button type="submit" class="btn btn-lg btn-block" [disabled]="!service.formModel.valid">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

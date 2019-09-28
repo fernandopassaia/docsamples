@@ -1,0 +1,68 @@
+﻿.natific {
+
+}
+
+.natific .img_container {
+    display: table-cell;
+    height: 100px;
+    width: 100px;
+}
+
+.natific .img_container .logo_image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.natific .create .file_progress {
+    margin: 10px 0 0 0;
+    width: 150px;
+}
+
+.natific .add_button {
+    margin: 0 0 10px 0;
+}
+
+.natific .manufacture_row {
+    padding: 10px 0 10px 0;
+}
+
+.natific .manufacture_row .details {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.natific .row .product {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.natific .row .product .img_container {
+    height: 256px;
+    width: 256px;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+}
+
+.natific .row .product .img_container .logo_image {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.natific .row .product .product_name {
+    margin: 0 0 5px 0;
+}
+
+.natific .row .product .buttons {
+    display: inline-block;
+}
+
+.natific .manufacture_row .buttons {
+    align-items: center;
+    display: flex;
+    height: 256px;
+    float: right;
+}

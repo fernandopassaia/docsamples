@@ -1,0 +1,4 @@
+This article was based here:
+
+https://fullstackmark.com/post/17/building-a-graphql-api-with-aspnet-core-2-and-entity-framework-core
+https://github.com/mmacneil/ASPNetCoreGraphQL

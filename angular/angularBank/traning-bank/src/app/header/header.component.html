@@ -1,0 +1,28 @@
+<div class="wrapper-header">
+  <div class="row">
+    <div class="col-xs-12 col-md-8">
+      <ul class="menu-header">
+        <li>Abra sua conta</li>
+        <li>Investimentos</li>
+        <li>Planos</li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <form [formGroup]="formLogin">
+        <div class="form-row align-items-center">
+          <div class="col-auto my-1">
+            <div class="form-check">
+              <label class="form-check-label">
+                <b>Acesse</b> sua conta
+              </label>
+              <input type="text" class="form-control" placeholder="Digite seu CPF">
+            </div>
+          </div>
+          <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary acessar-conta">Acessar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

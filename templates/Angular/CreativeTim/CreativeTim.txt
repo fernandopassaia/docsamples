@@ -1,0 +1,20 @@
+CreativeTim é um cara que faz templates bem LEVES pra Angular e Angular Material-Design:
+Minha conta no site dele é meu e-mail e senha 1234fd.
+
+GitHub: https://github.com/creativetimofficial
+Free Templates: https://www.creative-tim.com/templates/free
+
+Material DashBoard Angular:
+https://www.creative-tim.com/product/material-dashboard-angular2?tracking=first-time#
+https://demos.creative-tim.com/material-dashboard-angular2/#/dashboard
+https://demos.creative-tim.com/material-dashboard-angular2/#/documentation/tutorial
+
+Material Kit (ver tela de Login, muito louca):
+https://www.creative-tim.com/product/material-kit#
+https://demos.creative-tim.com/material-kit/index.html
+https://demos.creative-tim.com/material-kit/examples/login-page.html
+https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html
+
+Salvei os dois principais Sources dele (acima), mas está LOTADO no site, de Frees e Pagos.
+
+------------------------------------------------------------------------------------------------------------

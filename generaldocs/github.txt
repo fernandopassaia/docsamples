@@ -1,0 +1,67 @@
+Principais comandos do GitHub :
+
+git config -global user.name "fernandopassaia"
+git config --global user.email "fernandopassaia@futuradata.com.br" (diz quem você é pro github)
+
+git init c:/PcDevGit (iniciar novo repositório)
+git add . / git add * / git add "teste.txt" (para adicionar arquivos no commit).
+
+git commit -m "mensagem" - para formalizar as mudanças
+git push (para subir as alterações no GitHub).
+git push --all (para subir as alterações no GitHub).
+git push --force (caso ele reclame, você pode forçar o push)
+git pull (para receber o código atualizado)
+
+--------------------------------------------------------------------------------------------------------
+git clone https://github.com/projeto.git
+git clone https://github.com/projeto.git nomeProjetoLocal (eu posso dar outro nome pra ele ter local na minha máquina)
+
+--------------------------------------------------------------------------------------------------------
+
+Caso o pull dê pau por que ele diz que os arquivos locais são diferentes (pra forçar o download):
+git fetch --all
+git reset --hard origin/master
+git pull origin master
+
+--------------------------------------------------------------------------------------------------------
+
+git diff (mostra diferença entre local e online) (para sair digite "q")
+git status (mostra todos os arquivos que precisam ser comitados).
+git rm (exclui as alterações do seu local - volta os arquivos).
+
+--------------------------------------------------------------------------------------------------------
+Se der pau ao fazer o push, para remover o commit e voltar é só digitar na pasta:
+git rm -r --cached .
+git clean -n
+
+--------------------------------------------------------------------------------------------------------
+git log (mostra a documentação do seu branch atual).
+git log -follow "file" (mostra a documentação de um arquivo específico).
+git show b02093948776589f213d34f99 (mostra as alterações feitas em um commit específico)
+
+.gitignora - coloque nesse arquivo o que você não quer que ele suba, isso pode incluir arquivos com string
+conexão. Exemplos:
+
+--------------------------------------------------------------------------------------------------------
+
+When you have Submodules - FutureOfMedia Fidelitas Repo, you'll need to do this way:
+** NOTE - Always Use Gitbash instead of Cmder to Bitbucket **
+
+git clone --recurse-submodules
+
+git clone --recursive git@bitbucket.org:futureofmedia/fidelitasgroup.git
+git submodule foreach git checkout develop (With this command i'll switch all Repositories to Develop Branch)
+
+git submodule init
+git submodule update
+
+Inside the Folder (for example AdminApi) you had to get a specific branch before work:
+git pull origin develop
+
+To Push Code, you'll need to set the Place where to push:
+git add *
+git commit -m "Something"
+git push origin HEAD:develop
+git push origin HEAD:refs/heads/NameOfTheBranch (to create a new Branch)
+
+--------------------------------------------------------------------------------------------------------

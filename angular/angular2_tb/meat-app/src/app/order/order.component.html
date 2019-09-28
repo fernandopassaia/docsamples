@@ -1,0 +1,146 @@
+ <!--INICIO DO CONTEUDO-->
+ <section class="content-header">
+  </section>
+
+  <section class="content">
+    <section class="invoice">
+
+      <!-- Aqui eu printava no FORM os resultados, tirei, não preciso mais
+      {{form.valid}} !-- aqui temporariamente eu estou "printando" na tela propriedades do form, como a validade e os valores--
+      {{form.value | json}} !-- esse form foi nomeado de #form logo abaixo e nisso será feito validação, pego valores e etc -->
+
+      <!-- ao declarar FORM o Angular sub-entende que é um ngForm (novalidate desabilita) a validação do navegador, e eu farei a minha própria no angular -->
+          <form [formGroup]="orderForm" novalidate> <!-- Referência pro orderForm (do ReactiveForms) criado lá no meu component-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="page-header">
+                  <i class="fa fa-shopping-cart"></i> Finalize o seu pedido
+                </h2>
+              </div>
+            </div>                
+
+            <!-- Div criada durante o REFATORAMENTO do component de Order: Agora será usado Reactive Forms, será usado o FORM Reactive Form feito lá no component-->
+            <!-- Nota: Todos os campos foram REFATORADOS (tirado os ngModel e todas referências para ele) e colocando coisas do Reactive (formControlName)-->
+            <div class=row>
+              <div class="col-xs-12 col-sm-9">
+                <p class="lead">Seus Dados:</p>
+              </div>
+              <div class="col-xs-12 col-sm-3"> <!-- chama o meu método do Componente que vai verificar se os dois campos de e-mail sáo iguais -->
+                <span class="help-block pull-right has-error-block" *ngIf="orderForm.hasError('emailsNotMatch')"><i class="fa fa-remove"></i> Email-s não conferem</span>
+              </div>
+
+              <div class="col-sm-6 col-xs-12">                
+                <!-- chamo o meu componente que está em shared>input e passo o erro e a label-->
+                <mt-input-container errorMessage="Campo obrigatório e com 5 caracteres" label="Endereço">
+                  <input class="form-control" formControlName="name" placeholder="Nome " autocomplete="off">
+                </mt-input-container>
+              </div>
+              <div class="col-sm-3 col-xs-6">
+                <mt-input-container errorMessage="E-mail inválido" label="E-mail">
+                  <input type="text" class="form-control" formControlName="email" placeholder="E-mail" autocomplete="off">
+                </mt-input-container>
+              </div>
+
+              <div class="col-sm-3 col-xs-6">
+                <mt-input-container errorMessage="E-mail inválido" label="E-mail">
+                  <input type="text" class="form-control" formControlName="emailConfirmation" placeholder="Confirmação do e-mail" autocomplete="off">
+                </mt-input-container>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-xs-12">
+                <p class="lead">Endereço de Entrega:</p>
+              </div>
+              <div class="col-sm-6 col-xs-12">
+                
+                <!-- chamo o meu componente que está em shared>input e passo o erro e a label-->
+                <mt-input-container errorMessage="Campo obrigatório e com 5 caracteres" label="Endereço">
+                  <input class="form-control" formControlName="address" placeholder="Endereço" autocomplete="off">
+                </mt-input-container>
+
+
+
+              </div>
+              <div class="col-sm-3 col-xs-6">
+
+                <mt-input-container errorMessage="Obrigatório e somente números" label="Número"> <!-- Pattern - expressão regular pra ver se digitou só número-->
+                  <input class="form-control" formControlName="number" placeHolder="Número" autocomplete="off">
+                </mt-input-container>
+
+                <!-- EXEMPLO DO CÓDIGO REFATORADO ABAIXO (ESSE CÓDIGO TODO VIROU MEU COMPONENTE INPUT NA PASTA SHARED)
+                  <div class="form-group" [class.has-success]="iptNumber.valid && (iptNumber.dirty || iptNumber.touched)"
+                  [class.has-error]="!iptNumber.valid && (iptNumber.dirty || iptNumber.touched)">  não pode estar válido, e vai estar sujo e tocado
+                  <label class="control-label sr-only" for="inputSuccess"><i class="fa fa-check"></i> Número</label>
+                  <input type="text" class="form-control" name="number" required #iptNumber="ngModel" ngModel placeholder="Número" autocomplete="off">
+                  <span class="help-block" *ngIf="iptNumber.valid && (iptNumber.dirty || iptNumber.touched)"><i class="fa fa-check"></i> OK</span> lança um "OK" verde se estiver válido
+                  <span class="help-block" *ngIf="!iptNumber.valid && (iptNumber.dirty || iptNumber.touched)"><i class="fa fa-remove"></i> Campo obrigatório</span> lança um "Campo obrigatório" vermelho se estiver válido
+                </div> -->
+              </div>
+              <div class="col-sm-3 col-xs-6">
+                  <mt-input-container>
+                      <input class="form-control" formControlName="optionalAddress" placeHolder="Complemento">
+                    </mt-input-container>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+            <!-- Table row -->
+            <div class="row">
+              <div class="col-xs-12">
+                <p class="lead">Itens do Pedido:</p>
+              </div>
+
+              <!-- Funcionamento É ASSIM: A Minha lista vai receber um Array pra desenhar. Se houver algum evento nela (como exclusão, adicionar + itens)
+              ela vai remeter pro meu componente de compra o objeto correto pra ele se virar -->
+              <mt-order-items [items]="cartItems()"
+                  (increaseQty)="increaseQty($event)"
+                  (decreaseQty)="decreaseQty($event)"
+                  (remove)="remove($event)"></mt-order-items>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+            <div class="row">
+              <!-- accepted payments column -->
+              <div class="col-sm-6 col-xs-12">
+                <p class="lead">Formas de Pagamento:</p>
+
+                  <div class="form-group">
+                   
+                    <!-- PaymentOptions foi declarado no order.component.ts e é um array de pagamentos -->
+                    <!-- o nome paymentOption ngModel associa ele e disponibilza a todos ngModel (feito na radio.component.ts - ControlValueAccessor) -->
+                    <mt-radio [options]="paymentOptions" formControlName="paymentOption"></mt-radio>
+                   
+                  </div>
+
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-6 col-xs-12">
+                <p class="lead">Frete e Total:</p>
+
+                <mt-delivery-costs
+                  [delivery]="delivery" 
+                  [itemsValue]="itemsValue()"></mt-delivery-costs>
+              </div>
+              <!-- /.col -->
+            </div>
+
+          </form>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- Botão ficará DESABILITADO caso o Form não esteja válido-->
+              <!-- chamo meu método checkOrder do meu backend (form.value é o valor do meu form, o modelo)-->
+              <button (click)="checkOrder(orderForm.value)" class="btn btn-success pull-right"
+               [disabled]="!orderForm.valid || cartItems().Length ===0">
+               <i class="fa fa-credit-card"></i> Concluir Pedido
+              </button>
+            </div>
+          </div>
+
+      </section>
+  </section>
+<!-- FIM DO CONTEUDO-->

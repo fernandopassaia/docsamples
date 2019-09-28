@@ -1,0 +1,49 @@
+Instalar Ubuntu 18.04:
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee
+/etc/apt/sources.list.d/mongodb-org-4.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo service mongod start
+mongo --host 127.0.0.1:27017
+
+
+Shell (digite mongodb para iniciar o Shell do MongoDb):
+db (mostra banco usado)
+show dbs (mostra bancos de dados)
+use db (seleciona um banco)
+db.getName() (mostra banco de dados que está selecionado)
+db.getCollectionNames() (mostra as entidades (tabelas) no banco)
+show tables (mostra tabelas)
+
+
+
+Insert (nota, se não houver a coleção 'users' ("tabela") ele irá criar automáticamente, caralho, que louco!):
+db.users.insertOne({ nome: "Terry Crews", age: 30, status: "Ativo" })
+db.users.insertOne({ nome: "Silvester Cuzão Stalone", age: 18, status: "Passivo" })
+
+Também dá pra fazer o insertMany:
+db.users.insertMany( [ { nome: "Swaszeneguer", age: 25, status: "Ativo" }, { nome: "Van Damme", age: 38,
+status: "Passivo" } ] );
+
+Select (read):
+db.users.find() (seria como um Select * from users)
+db.users.find({ age: 30 }).limit(5)
+
+
+Update (você pode usar 3 comandos):
+db.users.updateOne()
+db.users.updateMany()
+db.v.replaceOne()
+
+db.users.updateOne({ nome: "Swaszeneguer" }, {$set: {age:30, status: "ATIVO"} });
+db.users.updateMany({ status: "Ativo" }, $set: { status: "ATIVO" });
+
+Delete (você pode usar 2 comandos):
+db.users.deleteMany()
+db.users.deleteOne()
+
+db.users.deleteMany( { status: "Ativo" } );
+db.users.deleteOne( { nome: "Swaszeneguer" } );
+
+------------------------------------------------------------------------------------------------------------

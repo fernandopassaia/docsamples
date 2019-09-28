@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\signtool.exe" sign /a /t http://timestamp.verisign.com/scripts/timstamp.dll %1

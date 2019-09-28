@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OutlookStyleControls.OutlookBar" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARFgAAERGBgYACgICCAICACIAAkgAIAAACAEgAEAgA=</HashCode>
+      <FileName>Controles\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutlookStyleControls.OutlookBarButton" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABAAgAIRAACCAQEAAEAAAABAIAAAACAAAAAA=</HashCode>
+      <FileName>Controles\OutlookBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAPagar.frmContasBancárias" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAADCAAABAAAACAIAECEAAACUQIAAAACAAAAAA=</HashCode>
+      <FileName>Financeiro\ContasAPagar\frmContasBancárias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAPagar.frmQuitarConta" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAACAAABAAIACAAAIGCAAACAAIAAAAAABAAAA=</HashCode>
+      <FileName>Financeiro\ContasAPagar\frmQuitarConta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAPagarP.frmContasPagarP" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/6DQIIlBCCSQBpgQJkSGsDiumAFQSAlMECCgQQjOUDE=</HashCode>
+      <FileName>Financeiro\ContasAPagar\frmContasPagarP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAReceber.frmAdicionarParcela" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YIEAAAAAASAAABCEAACAAAACJAAAAAAAACCAAABAgAA=</HashCode>
+      <FileName>Financeiro\ContasAReceber\frmAdicionarParcela.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAReceber.frmConsolidadoPagarEReceber" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/4ACJh0AACAAAxBAAACAAEACABAACSAAACSEBABqAQE=</HashCode>
+      <FileName>Financeiro\ContasAReceber\frmConsolidadoPagarEReceber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAReceber.frmContasReceber" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cIACAwmAACCoADIAoAKAIAEiIgAQDEhEAACAAAACEEo=</HashCode>
+      <FileName>Financeiro\ContasAReceber\frmContasReceber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAReceber.frmQuitarConta" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACBAABAAAACAAAACAAAICAAAAECAAABAgAM=</HashCode>
+      <FileName>Financeiro\ContasAReceber\frmQuitarConta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAReceber.frmFecharVenda" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9IpgEBYQSiAIQBSMiMCCAgAyQEAiKEQADLCAEgBAggA=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmFecharVenda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAReceber.frmPesquisarOrctAberto" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAICCAQABAAAAKCAAAKgEACCAAAAGAAIABAAAA=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmPesquisarOrctAberto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.ContasAReceber.frmRecebimentoEmCaixa" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Y4QCEAGQACAADBgAAACAQTECAyAACAgAAHGAACBIAoE=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmRecebimentoEmCaixa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscal.frmArquivosDigitais" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>XgAAAAAAACAAABAAABDgAABGAAAwCAAAICAQAACAAAE=</HashCode>
+      <FileName>Financeiro\Fiscais\frmArquivosDigitais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscal.frmEmissaoNFe" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/6TUYrXFG2A6b5iiKyrS8UDqorV7PwhpQGWiGQ9r9H0=</HashCode>
+      <FileName>Financeiro\Fiscais\frmEmissaoNFe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscal.frmInstrucoesNota" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAQCAAABgAAACEIAACAAAACAAAAACCACFAAAA=</HashCode>
+      <FileName>Financeiro\Fiscais\frmInstrucoesNota.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscal.frmNaturezaOperacao" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAQCAAABAAAACAIAACAAIACEAAAgAAACFAAAA=</HashCode>
+      <FileName>Financeiro\Fiscais\frmNaturezaOperacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscal.frmTransportadora" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QKCAAgEMGTA8JpgAZASAsAAiAgD3DSgBAUCCBSwismg=</HashCode>
+      <FileName>Financeiro\Fiscais\frmTransportadora.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscais.frmConfigFiscalProduto" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAEIAAAASAAABCCEAKAAABCoAEAAABgEGEABAABgLA=</HashCode>
+      <FileName>Financeiro\Fiscais\frmConfigFiscalProduto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscais.frmEnvioArquivoNfe" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQIAwABCAAAAQAASGAAAQGAQQoKABEAGASAARAAAA=</HashCode>
+      <FileName>Financeiro\Fiscais\frmEnvioArquivoNfe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscais.frmGestaoImpostos" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACQCgNAACC4ApgAAQCQEASiAiFADAgJQCCIEQAiUEg=</HashCode>
+      <FileName>Financeiro\Fiscais\frmGestaoImpostos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.Fiscais.frmGestaoParametrosNF" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+4ALAgAABCAgBBIAAMCApAGCAASAjAKAgCECEYDQARA=</HashCode>
+      <FileName>Financeiro\Fiscais\frmGestaoParametrosNF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.frmAberturaCaixa" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKACAAAAACCIABAAEACAAAACAAACCAIAAQAQAAAAAAA=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmAberturaCaixa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.frmCaixaDiario" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cpACCAAACCBBBBhGQUyAQQALYAUCDAgAgDAGgIFAAQE=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmCaixaDiario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.frmEstornoPedido" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>94gAESAwACMBABAACGCAIBCGAwACQABCJCgAEAFAEgo=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmEstornoPedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.frmFechamentoCaixa" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKACAAAAAGAIARAAAACAAAACAAQCCAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmFechamentoCaixa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Financeiro.frmSangria" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAACAAABAiAgSACAACAAACSAAAAAAIAABAAAA=</HashCode>
+      <FileName>Financeiro\MovimentoCaixa\frmSangria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.frmTelaPrincipal" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/tdk/d/L/av/4789vfv+97+z/9/38S3f9f/vRv7338o=</HashCode>
+      <FileName>frmTelaPrincipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Program" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmAgendaCompromisso" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgDQAgEAACAwCJgAAAiAEMAiAgEADBgBACCYAABIAAA=</HashCode>
+      <FileName>Gestões\AgendaEProjetos\frmAgendaCompromisso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGerenciaAgendaTarefas" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QoAAAAAAACAIEBAQQACEAAACDAAAAEQAACAAAABAAAA=</HashCode>
+      <FileName>Gestões\AgendaEProjetos\frmGerenciaAgendaTarefas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGestaoDoProjeto" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8ICAAiECAGQwAJABAACAEAgCAgAADAgAQCCIAQJIEAQ=</HashCode>
+      <FileName>Gestões\AgendaEProjetos\frmGestaoDoProjeto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmAdicItemOrctOs" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>c5kELaAAgKgBNNiKIgGUBDUGAAAB2QgEByXkgAII8gA=</HashCode>
+      <FileName>Gestões\frmAdicItemOrctOs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGerenciarIntervencoesOS" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wIAAAAAAQCAoABAAgACEAAACAAAABEAAACAAAABAAAA=</HashCode>
+      <FileName>Gestões\frmGerenciarIntervencoesOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGestaoClientes" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>3YHQBi0MGTs/NtlEZEyk9QXu/lH/BwyHwUOyNCensnk=</HashCode>
+      <FileName>Gestões\frmGestaoClientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGestaoEquipamentos" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8MCUAgVkBCCSD5ggRBCC0QEikEBCaFwBECFAAAArJgQ=</HashCode>
+      <FileName>Gestões\frmGestaoEquipamentos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGestaoFornecedores" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/7jRAg0MWbm9Z7iEZkyA8YHmblj/DQyB8XGwLGWmunk=</HashCode>
+      <FileName>Gestões\frmGestaoFornecedores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGestaoGrupoProduto" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoLEAA0EACCQCrAAREKCUQAuGBBCyEgDACAIgAcqAAE=</HashCode>
+      <FileName>Gestões\frmGestaoGrupoProduto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmCadProdutos" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/xTAhy0FICqWKro8tEC0UFl+cgBSaYxneKcgvBE7uD0=</HashCode>
+      <FileName>Gestões\frmGestaoProdutos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmGestaoUsuarios" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sMaYAzFIUHA8xphACgeFEAAuAiAKjEoRSCISIGsDEM0=</HashCode>
+      <FileName>Gestões\frmGestaoUsuarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmManutencaoCadastro" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAACAAABAIgCCEAAACAAAADAAAACAABAAAAAA=</HashCode>
+      <FileName>Gestões\frmManutencaoCadastro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmMarkupOrcamento" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QICAAFAQQCAAwRIgAACAAAACAAAQCABAACCAAABIAgA=</HashCode>
+      <FileName>Gestões\frmMarkupOrcamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmNewOSOrct" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/6egIr9qU+Y6h9p2ahCA+WCqp2FwLJ7Q0LW+kYBPNn4=</HashCode>
+      <FileName>Gestões\frmNewOSOrct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmPerguntaPedidoFornQuant" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lACAAAAAACAAAAAAAACAAAACAAAIQAAAAFCAAAAAEAA=</HashCode>
+      <FileName>Gestões\frmPerguntaPedidoFornQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmPesquisaOrctOs" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAABCEAABiEEACAAAACAAAIBgAAACAAAABAAAA=</HashCode>
+      <FileName>Gestões\frmPesquisaOrctOs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmReajusteFornecedor" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgACAAACAAABAACACAAAALAAAECAAAkCAAgEBAMAA=</HashCode>
+      <FileName>Gestões\frmReajusteFornecedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.frmAdicMatPrimaFormula" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UJEADIAAACABJJgKIACUhAQGAAAAiAgIAiC0AAAIIAA=</HashCode>
+      <FileName>Gestões\MateriaPrima\frmAdicMatPrimaFormula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaData.Gestões.frmAdicItemPedidoFornecedor" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UpkELYAAgKgBNNiKIgGUBDQGAAAB2QgEAyWkgAII8AA=</HashCode>
+      <FileName>Gestões\frmAdicItemPedidoFornecedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaData.Gestões.frmPedidosPFornecedor" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>C6CQBqUgACA6BpgCRgCAcgoqUiBALAoCBBzkwThDHng=</HashCode>
+      <FileName>Gestões\frmPedidosPFornecedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.Produtos_e_Matéria_Prima.frmEmbalagens" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YICAAgUQACB6DpgABADAsAEiGgBADWgFQCOKAAgjNkw=</HashCode>
+      <FileName>Gestões\MateriaPrima\frmEmbalagens.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.Produtos_e_Matéria_Prima.frmFormulas" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>85CAsiFAASg6DpiRUAKAMQSmEmBEDGwBwGKAIChiPMg=</HashCode>
+      <FileName>Gestões\MateriaPrima\frmFormulas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Gestões.Produtos_e_Matéria_Prima.frmMateriaPrima" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/4iAki0AACA6DpgQFACgsQFiEgDCDGgBQCOAAAgjNsg=</HashCode>
+      <FileName>Gestões\MateriaPrima\frmMateriaPrima.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Iniciar.frmConfigConexaoServidor" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAGAgYCEAABCAwA6AAAAiAQQ8AggAAGAAACAwEIA=</HashCode>
+      <FileName>Iniciar\frmConfigConexaoServidor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Iniciar.frmInicializacao" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MICAAWQAACJAABQICCCoABRaAMAJIQsBAHICDQBAUCE=</HashCode>
+      <FileName>Iniciar\frmInicializacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Iniciar.frmLembrarSenha" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAOQBAAAACAAAwCAAACABAAAAAAAAAAIAA=</HashCode>
+      <FileName>Iniciar\frmLembrarSenha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Iniciar.frmLog" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAEAAACgAABAAAASAAAACAAQCAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Iniciar\frmLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Iniciar.frmLoginSistema" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kYYAIAQwACBAERgCAACAEBICAACMIAAAAGIAAEASAAE=</HashCode>
+      <FileName>Iniciar\frmLoginSistema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Iniciar.frmProcuraServidor" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAkAAACgAABAAAACAAAAGAAAIAAACQEAQAABlAAA=</HashCode>
+      <FileName>Iniciar\frmProcuraServidor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Marketing.frmMarketingMail" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAQAASAAABCAAACCCABCIEAoEAAAMCAAAIBAAAA=</HashCode>
+      <FileName>Marketing\frmMarketingMail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.frmNovaCentralRelatorios" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAJpAAJCAkCyhAAACAQAACAQAACAAxASAwAAREAAA=</HashCode>
+      <FileName>NovosRelatórios\BasicosGerais\frmNovaCentralRelatorios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatorios.frmRelatorios" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAAAAAACABAAAAAgmQAAACAACAAAgAACAAAAAAAAE=</HashCode>
+      <FileName>NovosRelatórios\BasicosGerais\frmRelatorios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.BasicosGerais.rptRelatorioLayoutPadrao" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAgAAAAAIABBAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>NovosRelatórios\BasicosGerais\rptRelatorioLayoutPadrao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.BasicosGerais.CachedrptRelatorioLayoutPadrao" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\BasicosGerais\rptRelatorioLayoutPadrao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatorios.Clientes.frmDialogoRelatCliente" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAIAIAAACCRABAgAACAIAACAAACCAAQAGBAgAJAAAE=</HashCode>
+      <FileName>NovosRelatórios\Clientes\frmDialogoRelatCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatorios.Clientes.frmMovimentacaoCliente" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAABAAAACBAgDGABCKAAEQCAAACQAAgACgAAABAAAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\frmMovimentacaoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.cryClienteMalaDireta2Vias" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIABAAAAAAAAgACAABAAACBAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\cryClienteMalaDireta2Vias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.CachedcryClienteMalaDireta2Vias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\cryClienteMalaDireta2Vias.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.cryClienteMalaDireta3Vias" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIABAAAAAAAAgACAABAAACBAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\cryClienteMalaDireta3Vias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.CachedcryClienteMalaDireta3Vias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\cryClienteMalaDireta3Vias.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.dsClientes" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwCAAAJABQAAQAAAAAgCQBgAAAAAACEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.dsMovimentacaoCliente" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAwAAAIJABAAAQAAAAAgCQBgAAAAAAAEABRA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\dsMovimentacaoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.rptRelatorioClienteSimples" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAgAAAAAIABBAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\rptRelatorioClienteSimples.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.CachedrptRelatorioClienteSimples" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\rptRelatorioClienteSimples.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.rptRelatorioMovimentacaoCliente" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAgAAAAAIABBAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\rptRelatorioMovimentacaoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.CachedrptRelatorioMovimentacaoCliente" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Clientes\Relatorios\rptRelatorioMovimentacaoCliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.dsClientesTableAdapters.ISCLIE876TableAdapter" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.dsClientesTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAhAAACgAAAAAQACAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.dsMovimentacaoClienteTableAdapters.ISORCAM765TableAdapter" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Clientes.Relatorios.dsMovimentacaoClienteTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.OrcamentosOS.frmImpressaoCotacaoVenda" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MYgYAAAgACQAiBAAgASEiAAChAY4SBgCAHCIIgBIAAA=</HashCode>
+      <FileName>NovosRelatórios\OrcamentosOS\frmImpressaoCotacaoVenda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.OrcamentosOS.Relatorios.dsDadosRelatorioOrcamento" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIIAAwAAAAJQBAAAQAQIAAgCQBkAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.OrcamentosOS.Relatorios.rptRelatorioCotacaoVenda" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAgAAAAAIABBAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>NovosRelatórios\OrcamentosOS\Relatorios\rptRelatorioCotacaoVenda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.OrcamentosOS.Relatorios.CachedrptRelatorioCotacaoVenda" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\OrcamentosOS\Relatorios\rptRelatorioCotacaoVenda.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.OrcamentosOS.Relatorios.dsDadosRelatorioOrcamentoTableAdapters.ISCONFIGSIST635TableAdapter" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.OrcamentosOS.Relatorios.dsDadosRelatorioOrcamentoTableAdapters.sp_NovoListaOrcamentosTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.OrcamentosOS.Relatorios.dsDadosRelatorioOrcamentoTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAICABAABABAEBAAAAMAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoSiga_Basic.NovosRelatorios.Produtos.dsProdutos" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAwAAAAJABAQAQAAAAAgCQBkAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoSiga_Basic.NovosRelatorios.Produtos.dsProdutosTableAdapters.ISPRO101TableAdapter" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoSiga_Basic.NovosRelatorios.Produtos.dsProdutosTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAIAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.dsProdutos" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAwAAAAJABAQAQAAAAAgCQBkAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.frmImpressaoProdutoEtiqPratileiraCupom" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAACAAABAAgASEAAACIBAACQACACCRBRABAAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\frmImpressaoProdutoEtiqPratileiraCupom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.dsProdutosTableAdapters.ISPRO101TableAdapter" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.dsProdutosTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAIAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatorios.Produtos.frmDialogRelatProdutos" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAQACAAABAABACAJAAKADAACAAAIHAAQAJAACA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\frmDialogRelatProdutos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.cryEtiqueta2Vias" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryEtiqueta2Vias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.CachedcryEtiqueta2Vias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryEtiqueta2Vias.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.cryProdutoEtiqueta2Vias" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIABAAAAAAAAgACAABAAACBAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutoEtiqueta2Vias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.CachedcryProdutoEtiqueta2Vias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutoEtiqueta2Vias.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.cryProdutoEtiqueta3Vias" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIABAAAAAAAAgACAABAAACBAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutoEtiqueta3Vias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.CachedcryProdutoEtiqueta3Vias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutoEtiqueta3Vias.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.cryProdutoEtiqueta3Vias2" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIABAAAAAAAAgACAABAAACBAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutoEtiqueta3Vias2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.CachedcryProdutoEtiqueta3Vias2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutoEtiqueta3Vias2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.cryProdutosNormal" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutosNormal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.NovosRelatórios.Produtos.Relatorios.CachedcryProdutosNormal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NovosRelatórios\Produtos\Relatorios\cryProdutosNormal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Organizacao.frmAgendaCompromissos" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizacao\frmAgendaCompromissos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Properties.Resources" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HnAZlQlIwT/ERQZ8DubLVUbCCcwQdHItAObfHzVLPNc=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIAAQAAAAAAEAAAIAAABAABAAAAAgAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmAtivacaoSoftware" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAAKAQBhAAAECAAAIaAAACCARAAFAQAABBBAA=</HashCode>
+      <FileName>Utilitarios\frmAtivacaoSoftware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmBackupSistema" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAgCAAASgIQDGgEACCABACAEQCAAAAQCIQAAFAAEE=</HashCode>
+      <FileName>Utilitarios\frmBackupSistema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmConfigHosts" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAjEIACQ4hhgAAQCAkQAiAgAFDAgAACAAgARCEEg=</HashCode>
+      <FileName>Utilitarios\frmConfigHosts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmConfigSistema" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8YAAUCQMCDAAAhIIJACEoAGiABD/CBiAgWEQBCBA4CA=</HashCode>
+      <FileName>Utilitarios\frmConfigSistema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmContatoFuturaData" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAGAABCCAQBAAAQCAAAACAAAACAAAACAQAAkAEIA=</HashCode>
+      <FileName>Utilitarios\frmContatoFuturaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmEmailsEnviados" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAgCAAABAAAACAAAACCAACCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitarios\frmEmailsEnviados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmExecutorSQL" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAACAAABAAAACAAAACAAgIAgAAEEAAAAAAAAA=</HashCode>
+      <FileName>Utilitarios\frmExecutorSQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmPapelParede" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/4AAMhJAgCAggRgAAACAQAUCIQACgAAAQCEwAIBAIDA=</HashCode>
+      <FileName>Utilitarios\frmPapelParede.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmProdutosFuturaData" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Utilitarios\frmProdutosFuturaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmProfissionais" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAAACAAAAAAAACAAAACAAAAAAAAAAAQAABAAAA=</HashCode>
+      <FileName>Utilitarios\frmProfissionais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.frmSobreOSistema" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIEACjQQADCigRgAEgKAQAACAQAICAgAAGgQCBBgAAA=</HashCode>
+      <FileName>Utilitarios\frmSobreOSistema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.Utilitarios.Importacoes.frmImportarNetGeraDOS" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQBAECAAEBACAACAAgCCACAACBAAAAAQAABAAAA=</HashCode>
+      <FileName>Utilitarios\Importacoes\frmImportarNetGeraDOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuturaDataCorporateERP.VideoAulas.frmVideoAula1" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAAAAAACAAAAAAAACAAAACIAAAAAAAAAAQQAAAAAA=</HashCode>
+      <FileName>VideoAulas\frmVideoAula1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

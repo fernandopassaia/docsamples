@@ -1,0 +1,1187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{435C4BF1-E5FC-4DDE-B344-E73E9E22A282}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FuturaDataTCC</RootNamespace>
+    <AssemblyName>FuturaDataTCC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>iconeNFeico.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>DA6DE6D86DEC102AADDC88576A5C2D38751B59FD</ManifestCertificateThumbprint>
+    <ManifestKeyFile>InfoSiga_Basic_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\..\FuturaData\TCC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>C:\FuturaData\Standart_Comercio\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.4.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\FuturaData\TCC\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DllFuturaDataContrValidacoes, Version=4.1.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\FuturaData\TCC\DllFuturaDataContrValidacoes.dll</HintPath>
+    </Reference>
+    <Reference Include="DllFuturaDataCriptografia, Version=4.1.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\FuturaData\TCC\DllFuturaDataCriptografia.dll</HintPath>
+    </Reference>
+    <Reference Include="DllFuturaDataFiscal, Version=4.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\FuturaData\TCC\DllFuturaDataFiscal.dll</HintPath>
+    </Reference>
+    <Reference Include="DllFuturaDataUtil, Version=4.1.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\FuturaData\TCC\DllFuturaDataUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Views\Caixa\CalendarColumn.cs" />
+    <Compile Include="Views\Caixa\frmNewAberturaCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewAberturaCaixa.Designer.cs">
+      <DependentUpon>frmNewAberturaCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewCaixa.Designer.cs">
+      <DependentUpon>frmNewCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewEstornoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewEstornoProduto.designer.cs">
+      <DependentUpon>frmNewEstornoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewFecharVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewFecharVenda.designer.cs">
+      <DependentUpon>frmNewFecharVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewFechtCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Caixa\frmNewFechtCaixa.Designer.cs">
+      <DependentUpon>frmNewFechtCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanoDeContas\frmCadastroCategoriaPlanoContas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PlanoDeContas\frmCadastroCategoriaPlanoContas.Designer.cs">
+      <DependentUpon>frmCadastroCategoriaPlanoContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanoDeContas\frmCadastroItemPlanoContas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PlanoDeContas\frmCadastroItemPlanoContas.Designer.cs">
+      <DependentUpon>frmCadastroItemPlanoContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanoDeContas\frmGestaoPlanoContas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PlanoDeContas\frmGestaoPlanoContas.Designer.cs">
+      <DependentUpon>frmGestaoPlanoContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\clsFuncoes.cs" />
+    <Compile Include="Views\Gestoes\frmGestaoProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Gestoes\frmGestaoProdutos.Designer.cs">
+      <DependentUpon>frmGestaoProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Gestoes\frmGestaoUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Gestoes\frmGestaoUsuarios.Designer.cs">
+      <DependentUpon>frmGestaoUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Orcamento\frmGestaoOrcamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Orcamento\frmGestaoOrcamentos.Designer.cs">
+      <DependentUpon>frmGestaoOrcamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Orcamento\frmPesquisaProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Orcamento\frmPesquisaProdutos.Designer.cs">
+      <DependentUpon>frmPesquisaProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iniciar\frmConfigConexaoServidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iniciar\frmConfigConexaoServidor.Designer.cs">
+      <DependentUpon>frmConfigConexaoServidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iniciar\frmInicializacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iniciar\frmInicializacao.Designer.cs">
+      <DependentUpon>frmInicializacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iniciar\frmLoginSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iniciar\frmLoginSistema.Designer.cs">
+      <DependentUpon>frmLoginSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\Caixa\frmNewRelatAnalCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\Caixa\frmNewRelatAnalCaixa.Designer.cs">
+      <DependentUpon>frmNewRelatAnalCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\Orcamento\frmImpressaoRelPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\Orcamento\frmImpressaoRelPedido.Designer.cs">
+      <DependentUpon>frmImpressaoRelPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Views\Gestoes\frmGestaoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Gestoes\frmGestaoClientes.Designer.cs">
+      <DependentUpon>frmGestaoClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTelaPrincipal.Designer.cs">
+      <DependentUpon>frmTelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilitarios\loading.cs" />
+    <EmbeddedResource Include="Views\Caixa\frmNewAberturaCaixa.resx">
+      <DependentUpon>frmNewAberturaCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Caixa\frmNewCaixa.resx">
+      <DependentUpon>frmNewCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Caixa\frmNewEstornoProduto.resx">
+      <DependentUpon>frmNewEstornoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Caixa\frmNewFecharVenda.resx">
+      <DependentUpon>frmNewFecharVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Caixa\frmNewFechtCaixa.resx">
+      <DependentUpon>frmNewFechtCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanoDeContas\frmCadastroCategoriaPlanoContas.resx">
+      <DependentUpon>frmCadastroCategoriaPlanoContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanoDeContas\frmCadastroItemPlanoContas.resx">
+      <DependentUpon>frmCadastroItemPlanoContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanoDeContas\frmGestaoPlanoContas.resx">
+      <DependentUpon>frmGestaoPlanoContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Gestoes\frmGestaoProdutos.resx">
+      <DependentUpon>frmGestaoProdutos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Gestoes\frmGestaoUsuarios.resx">
+      <DependentUpon>frmGestaoUsuarios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Orcamento\frmGestaoOrcamentos.resx">
+      <DependentUpon>frmGestaoOrcamentos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Orcamento\frmPesquisaProdutos.resx">
+      <DependentUpon>frmPesquisaProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iniciar\frmConfigConexaoServidor.resx">
+      <DependentUpon>frmConfigConexaoServidor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iniciar\frmInicializacao.resx">
+      <DependentUpon>frmInicializacao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iniciar\frmLoginSistema.resx">
+      <DependentUpon>frmLoginSistema.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\Caixa\frmNewRelatAnalCaixa.resx">
+      <DependentUpon>frmNewRelatAnalCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\Caixa\rptRelatCaixaFinanc.rdlc" />
+    <EmbeddedResource Include="Relatorios\Caixa\rptRelatEstoque.rdlc" />
+    <EmbeddedResource Include="Relatorios\Caixa\rptRelatFechtCaixa.rdlc" />
+    <EmbeddedResource Include="Relatorios\Caixa\rptRelatPedidos.rdlc" />
+    <EmbeddedResource Include="Relatorios\Orcamento\frmImpressaoRelPedido.resx">
+      <DependentUpon>frmImpressaoRelPedido.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\Orcamento\Relatorio_Pedido_de_Vendas.rdlc" />
+    <EmbeddedResource Include="Relatorios\Orcamento\Sub_Relatorio_Pedido_Cliente.rdlc" />
+    <EmbeddedResource Include="Relatorios\Orcamento\Sub_Relatorio_Pedido_Dados_Itens.rdlc" />
+    <EmbeddedResource Include="Views\Gestoes\frmGestaoClientes.resx">
+      <DependentUpon>frmGestaoClientes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTelaPrincipal.resx">
+      <DependentUpon>frmTelaPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilitarios\frmConfigSistema.resx">
+      <DependentUpon>frmConfigSistema.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilitarios\frmLoading.resx">
+      <DependentUpon>frmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilitarios\frmPapelParede.resx">
+      <DependentUpon>frmPapelParede.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilitarios\frmSelecaoConexoes.resx">
+      <DependentUpon>frmSelecaoConexoes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utilitarios\frmConfigSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilitarios\frmConfigSistema.Designer.cs">
+      <DependentUpon>frmConfigSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilitarios\frmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilitarios\frmLoading.Designer.cs">
+      <DependentUpon>frmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilitarios\frmPapelParede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilitarios\frmPapelParede.Designer.cs">
+      <DependentUpon>frmPapelParede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilitarios\frmSelecaoConexoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilitarios\frmSelecaoConexoes.Designer.cs">
+      <DependentUpon>frmSelecaoConexoes.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Imagens\Inicializacao\btnAtencaoPqMin.bmp" />
+    <None Include="Imagens\Inicializacao\btnStatusDescMin.bmp" />
+    <None Include="Imagens\Inicializacao\btnStatusOKMin.bmp" />
+    <None Include="Imagens\Inicializacao\btnStatusRuimPeq.bmp" />
+    <None Include="Imagens\barraPrinc\btnCadClientes.gif" />
+    <None Include="Imagens\barraPrinc\btnOrcamentos.gif" />
+    <None Include="Imagens\barraPrinc\btnCadProd.gif" />
+    <None Include="Imagens\barraPrinc\btnControleEstoque.gif" />
+    <None Include="Imagens\barraPrinc\btnCaixa2.gif" />
+    <None Include="Imagens\barraPrinc\btnCadContasPagar.gif" />
+    <None Include="Imagens\barraPrinc\btnRelatorios.gif" />
+    <None Include="Imagens\barraPrinc\btnBackup2.gif" />
+    <None Include="Imagens\barraPrinc\btnQuit3.gif" />
+    <None Include="Imagens\barraPrinc\btnAjudaJ.gif" />
+    <None Include="Imagens\Inicializacao\FundoSistema.jpg" />
+    <None Include="Imagens\Inicializacao\logoFundoBrancoJPG.jpg" />
+    <None Include="Imagens\Inicializacao\logoFundoBrancoGrande.jpg" />
+    <None Include="Imagens\Inicializacao\FundoSistemaGrande.jpg" />
+    <None Include="Imagens\Inicializacao\fundoSistemaInfoSiga.jpg" />
+    <None Include="Imagens\barraPrinc\recibo.gif" />
+    <None Include="Properties\DataSources\DllInfoSiga_Basic.Gestoes.clsOrcamento.datasource" />
+    <None Include="Resources\Space.jpg" />
+    <None Include="Resources\Happy.jpg" />
+    <None Include="Resources\Gold.jpg" />
+    <None Include="Resources\Fuel.jpg" />
+    <None Include="Resources\city copy.jpg" />
+    <None Include="Resources\city copy1.jpg" />
+    <None Include="Resources\city copy2.jpg" />
+    <None Include="Resources\city copy3.jpg" />
+    <None Include="Resources\fly copy.jpg" />
+    <None Include="Imagens\barraPrinc\btnBackup.gif" />
+    <None Include="Imagens\barraPrinc\btncadant.jpg" />
+    <None Include="Imagens\barraPrinc\btnproxcad.jpg" />
+    <None Include="Resources\security.png" />
+    <None Include="Imagens\barraPrinc\Download.Com.png" />
+    <None Include="Imagens\Inicializacao\novoLogoStandart.png" />
+    <None Include="Imagens\Inicializacao\novoFundoStandart.png" />
+    <None Include="Imagens\frmTelaPrincipal\logoTrans.png" />
+    <None Include="Imagens\frmTelaPrincipal\cadClientesFim.png" />
+    <None Include="Imagens\frmTelaPrincipal\Produtos.png" />
+    <None Include="Imagens\frmTelaPrincipal\Orcamentos2.png" />
+    <None Include="Imagens\frmTelaPrincipal\Caixa.png" />
+    <None Include="Imagens\frmTelaPrincipal\ContasPagar2.png" />
+    <None Include="Imagens\frmTelaPrincipal\ContasReceber.png" />
+    <None Include="Imagens\frmTelaPrincipal\logoTrans2.png" />
+    <None Include="Imagens\frmTelaPrincipal\Backup.png" />
+    <None Include="Imagens\frmTelaPrincipal\Indexar.png" />
+    <None Include="Imagens\frmTelaPrincipal\Conectados.png" />
+    <None Include="Imagens\frmTelaPrincipal\Produtos2.png" />
+    <None Include="Imagens\frmTelaPrincipal\TrocarPP.png" />
+    <None Include="Imagens\frmTelaPrincipal\TrocarPP2.png" />
+    <None Include="Imagens\frmTelaPrincipal\EmailsEnviados.png" />
+    <None Include="Imagens\frmTelaPrincipal\EmailsEnviados2.png" />
+    <None Include="Imagens\frmTelaPrincipal\Clientes.png" />
+    <None Include="Imagens\frmTelaPrincipal\Ajuda.png" />
+    <None Include="Imagens\frmTelaPrincipal\Sair.png" />
+    <None Include="Imagens\frmTelaPrincipal\TrocarPP3.png" />
+    <None Include="Imagens\frmTelaPrincipal\Printer.png" />
+    <None Include="Imagens\frmCaixa\btnAbrirCaixa.png" />
+    <None Include="Imagens\frmCaixa\btnAbrirCaixa2.png" />
+    <None Include="Imagens\frmCaixa\btnSangriaCaixa.png" />
+    <None Include="Imagens\frmCaixa\calc.png" />
+    <None Include="Imagens\frmCaixa\frmFechamentoCaixa.png" />
+    <None Include="Imagens\frmCaixa\Homework.png" />
+    <None Include="Imagens\frmCaixa\Notepad.png" />
+    <None Include="Imagens\frmCaixa\Notepad2.png" />
+    <None Include="Imagens\frmCaixa\Performance.png" />
+    <None Include="Imagens\frmTelaPrincipal\books.png" />
+    <None Include="Imagens\frmTelaPrincipal\book.png" />
+    <None Include="Imagens\frmTelaPrincipal\bolinhaQuarta.png" />
+    <None Include="Imagens\frmTelaPrincipal\bolinhaQuinta.png" />
+    <None Include="Imagens\frmTelaPrincipal\bolinhaSabado.png" />
+    <None Include="Imagens\frmTelaPrincipal\bolinhaSegunda.png" />
+    <None Include="Imagens\frmTelaPrincipal\bolinhaSexta.png" />
+    <None Include="Imagens\frmTelaPrincipal\bolinhaTerça.png" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga1.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga1.PNG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga2.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga3.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga4.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga5.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga6.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga7.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga8.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga9.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga10.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga11.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga12.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga13.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga14.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga15.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga16.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga17.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga18.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga19.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga20.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga21.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga22.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga23.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga24.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga25.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga26.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga27.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga28.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga29.JPG" />
+    <None Include="Imagens\Novos Papeis Parede\infosiga30.JPG" />
+    <None Include="Imagens\frmCaixa\caixaMesinha.png" />
+    <None Include="Imagens\interrogacao.png" />
+    <None Include="Imagens\btnConectados.jpg" />
+    <None Include="Imagens\btnConectados.png" />
+    <None Include="Imagens\comconexao.png" />
+    <None Include="Imagens\fundoInicializacao.png" />
+    <None Include="Imagens\contasPagar.png" />
+    <None Include="Imagens\contas.png" />
+    <None Include="Imagens\btnAgenda.png" />
+    <None Include="Agenda.png" />
+    <None Include="fundoInicializacao2014.jpg" />
+    <None Include="fundoInicializacaoMaior2014.jpg" />
+    <None Include="eye.png" />
+    <Content Include="DllsReferencia\DllFuturaDataContrValidacoes.dll" />
+    <Content Include="DllsReferencia\DllFuturaDataCriptografia.dll" />
+    <Content Include="DllsReferencia\DllFuturaDataFiscal.dll" />
+    <Content Include="DllsReferencia\DllFuturaDataUtil.dll" />
+    <Content Include="iconeNFeico.ico" />
+    <Content Include="iconesistema.ico" />
+    <None Include="Imagens\barraPrinc\btnsalvar.jpg" />
+    <None Include="Imagens\Inicializacao\fundoFuturaDataSTComercio.png" />
+    <None Include="Imagens\barraPrinc\btnexcluicad.jpg" />
+    <None Include="Imagens\frmTelaPrincipal\OrctOS.png" />
+    <None Include="Imagens\OS.png" />
+    <None Include="Imagens\Consultoria.png" />
+    <None Include="Imagens\AguaAprov.png" />
+    <None Include="Imagens\Aprovacao.png" />
+    <None Include="Imagens\Execucao.png" />
+    <None Include="Imagens\Finalizaco.png" />
+    <None Include="Imagens\Cancelado.png" />
+    <None Include="Imagens\MacLisa.png" />
+    <None Include="Imagens\Engrenagem.png" />
+    <None Include="Imagens\HD.png" />
+    <None Include="Imagens\loginDesconhecido.png" />
+    <None Include="Imagens\loginConhecido.png" />
+    <None Include="Imagens\logoTelaRelatorios.png" />
+    <None Include="Imagens\logoTelaRelatorios2.png" />
+    <None Include="Imagens\icones.png" />
+    <None Include="Imagens\Orcamento.png" />
+    <None Include="Imagens\newTelaPrincipal\cadClientes.png" />
+    <None Include="Imagens\newTelaPrincipal\cadClientes2.png" />
+    <None Include="Imagens\newTelaPrincipal\fornecedor.png" />
+    <None Include="Imagens\newTelaPrincipal\fornecedor2.png" />
+    <None Include="Imagens\newTelaPrincipal\fornecedor3.png" />
+    <None Include="Imagens\newTelaPrincipal\caixa.png" />
+    <None Include="Imagens\newTelaPrincipal\btnCaixa.png" />
+    <None Include="Imagens\newTelaPrincipal\movDiario.png" />
+    <None Include="Imagens\newTelaPrincipal\os.png" />
+    <None Include="Imagens\newTelaPrincipal\btnOS.png" />
+    <None Include="Imagens\newTelaPrincipal\btnBackupBD.png" />
+    <None Include="Imagens\newTelaPrincipal\btnCompras.png" />
+    <None Include="Imagens\newTelaPrincipal\btnContas.png" />
+    <None Include="Imagens\newTelaPrincipal\btnRelatorios.png" />
+    <None Include="Imagens\newTelaPrincipal\btnBackups.png" />
+    <None Include="Imagens\newTelaPrincipal\btnMKT.png" />
+    <None Include="Imagens\newTelaPrincipal\btnMKT2.png" />
+    <None Include="Imagens\newTelaPrincipal\btnFaleFuturaData.png" />
+    <None Include="Imagens\newTelaPrincipal\btnMovimento.png" />
+    <None Include="Imagens\newTelaPrincipal\btnVendas.png" />
+    <None Include="Imagens\newTelaPrincipal\btnPapelParede.png" />
+    <None Include="Imagens\newTelaPrincipal\btnSairSistema.png" />
+    <None Include="Imagens\newTelaPrincipal\consolidado.png" />
+    <None Include="Imagens\newTelaPrincipal\pagar.png" />
+    <None Include="Imagens\newTelaPrincipal\receber.png" />
+    <None Include="Imagens\ativacao.png" />
+    <None Include="Imagens\DlllsVersoes.png" />
+    <None Include="Imagens\arrastacao.png" />
+    <None Include="Imagens\EnvioCotacaoInternet.png" />
+    <None Include="Imagens\logoFundo.jpg" />
+    <None Include="Imagens\Fernando.jpg" />
+    <None Include="Imagens\Kevin.jpg" />
+    <None Include="Imagens\Agenda\Projeto.png" />
+    <None Include="Imagens\logoFundo2.jpg" />
+    <None Include="Imagens\Agenda\statusAmarelo.png" />
+    <None Include="Imagens\logoPng2.png" />
+    <None Include="Imagens\Impostos.png" />
+    <None Include="Imagens\btnStatusOKBolinha.png" />
+    <None Include="Imagens\btnStatusDesconhecidoInterrogacao.png" />
+    <None Include="Imagens\btnStatusRuimXizinho.png" />
+    <None Include="Imagens\nfecanc.png" />
+    <None Include="Imagens\Ativacao.jpg" />
+    <None Include="Imagens\AtivacaoMini.jpg" />
+    <None Include="Imagens\logoAtendimento.jpg" />
+    <None Include="Imagens\ajudaNFe.png" />
+    <None Include="Imagens\malaNFe.png" />
+    <None Include="Imagens\bancoAtivo.png" />
+    <None Include="Imagens\bancoOff.png" />
+    <None Include="Imagens\database_connect.png" />
+    <None Include="Imagens\conexaoAtivaPequena.png" />
+    <None Include="Imagens\nfeaprov.png" />
+    <None Include="Imagens\centralAjuda.jpg" />
+    <None Include="Imagens\futuraDataSemiTransparente.png" />
+    <None Include="Imagens\CadClientesNFeReceb.png" />
+    <None Include="Imagens\importacao.png" />
+    <None Include="Imagens\impostosCobranca.png" />
+    <None Include="Imagens\contasReceber.png" />
+    <None Include="Imagens\contasReceber3.png" />
+    <None Include="Imagens\contasReceb.png" />
+    <None Include="Imagens\logoNovo2010.jpg" />
+    <None Include="Imagens\contasRecebCade.png" />
+    <None Include="Imagens\barraPrinc\btnMarkup.jpg" />
+    <None Include="Imagens\desempenho.png" />
+    <None Include="Imagens\enviarEmailPDF.png" />
+    <None Include="Imagens\btnAtendimentoOnline.png" />
+    <None Include="Imagens\novosuporte.png" />
+    <None Include="Imagens\arrastacao.jpg" />
+    <None Include="Imagens\ajudaComNFe.png" />
+    <None Include="Imagens\CertificadoVencendo.png" />
+    <None Include="Imagens\nfe.png" />
+    <None Include="Imagens\avisoMensalNfe.jpg" />
+    <None Include="Imagens\ListaICMS.jpg" />
+    <None Include="Imagens\ajudaNFeRejeitada.png" />
+    <None Include="Imagens\economia.png" />
+    <None Include="Imagens\nfeaulas.png" />
+    <None Include="Imagens\gif_loading.gif" />
+    <None Include="Imagens\cli_contatos.png" />
+    <None Include="Imagens\cli_vendedores.png" />
+    <None Include="Imagens\clienteAtivo.png" />
+    <None Include="Imagens\clienteBloqueado.png" />
+    <None Include="Imagens\clienteInativo.png" />
+    <None Include="Imagens\btnsuporteEspecializado.png" />
+    <None Include="Imagens\btnsuporteEspecializado2.png" />
+    <None Include="Imagens\mais.png" />
+    <None Include="Imagens\mais2.png" />
+    <None Include="Imagens\facaMais.jpg" />
+    <None Include="Imagens\certificados.png" />
+    <None Include="Imagens\logoPequenoSuporte.jpg" />
+    <None Include="Imagens\miniPDF.png" />
+    <None Include="Imagens\filtrar.png" />
+    <None Include="Imagens\multiLoja.png" />
+    <None Include="Imagens\importaSefaz.png" />
+    <None Include="Imagens\interrogacaoMenor.png" />
+    <None Include="Imagens\graficoMovimentacaoPosicao.png" />
+    <None Include="Imagens\kit.png" />
+    <None Include="Imagens\kitcompo.png" />
+    <None Include="Imagens\grafico_pizza.png" />
+    <None Include="Imagens\newMarkup.png" />
+    <None Include="Imagens\bancoAtivo_FD.png" />
+    <None Include="Imagens\bancoOff_FD.png" />
+    <Content Include="Imagens\BolinhasECF\bolinha_amarela_10x10.png" />
+    <Content Include="Imagens\BolinhasECF\bolinha_azul_10x10.png" />
+    <Content Include="Imagens\BolinhasECF\bolinha_verde_10x10.png" />
+    <Content Include="Imagens\BolinhasECF\bolinha_verde_20x20.png" />
+    <Content Include="Imagens\BolinhasECF\bolinha_verde_30x30.png" />
+    <Content Include="Imagens\BolinhasECF\bolinha_vermelha.png" />
+    <Content Include="Imagens\BolinhasECF\bolinha_vermelha_compactado.jpg" />
+    <None Include="Imagens\newecf.png" />
+    <None Include="Imagens\ECF\ecf_Bematech.png" />
+    <None Include="Imagens\ECF\ecf_daruma.png" />
+    <None Include="Imagens\ECF\ecf_epson.png" />
+    <None Include="Imagens\ECF\ecf_sweda.png" />
+    <None Include="Imagens\ECF\miniecf.png" />
+    <None Include="Imagens\charlotTheHarlot.png" />
+    <None Include="Imagens\charlotTheHarlot2.png" />
+    <None Include="Imagens\charlotTheHarlot3.png" />
+    <None Include="Imagens\fiscal_imglegal.png" />
+    <None Include="Imagens\ECF\miniprinter.png" />
+    <None Include="Imagens\conferencia.png" />
+    <None Include="Imagens\fecharVenda.png" />
+    <None Include="Imagens\newCaixa.png" />
+    <None Include="Imagens\btnMarkup.png" />
+    <None Include="Imagens\btnVendasWeb.png" />
+    <None Include="Imagens\btnVendasWeb2.png" />
+    <None Include="Imagens\btnPDV.png" />
+    <None Include="Imagens\btnPDV2.png" />
+    <None Include="Imagens\configPDV.png" />
+    <None Include="Imagens\categorizacao.png" />
+    <None Include="Imagens\categorias.png" />
+    <None Include="Imagens\categorias.jpg" />
+    <Content Include="Imagens\ECF\epson.png" />
+    <Content Include="Imagens\ECF\leitor.png" />
+    <Content Include="Imagens\ECF\tef.png" />
+    <None Include="Imagens\newRecebCaixa.png" />
+    <None Include="Imagens\logo_marcaDagua.png" />
+    <None Include="Imagens\multiLojaGrandeConfig.png" />
+    <None Include="Imagens\newVendor.png" />
+    <None Include="Imagens\log_rastrear.png" />
+    <None Include="Imagens\newLogin\bolaUsuarioDesconhecido.png" />
+    <None Include="Imagens\newLogin\bolaUsuarioOK.png" />
+    <None Include="Imagens\newLogin\usuarioNaoLogado.png" />
+    <None Include="Imagens\manufactures.png" />
+    <None Include="Imagens\models.png" />
+    <None Include="Imagens\newConfig.png" />
+    <None Include="Imagens\moneyOut.png" />
+    <None Include="Imagens\moneyIn.png" />
+    <None Include="Imagens\newCaixa\abre_Caixa.png" />
+    <None Include="Imagens\newCaixa\sangria.png" />
+    <None Include="Imagens\newCaixa\reforco.png" />
+    <None Include="Imagens\newCaixa\confCaix.png" />
+    <None Include="Imagens\newCaixa\fechtCaix.png" />
+    <None Include="Imagens\newCaixa\relatCaixa1.png" />
+    <None Include="Imagens\newCaixa\relatCaixa2.png" />
+    <None Include="Imagens\newCaixa\relatCaixa3.png" />
+    <None Include="Imagens\newCaixa\relatCaixa4.png" />
+    <None Include="Imagens\newFormOrct.png" />
+    <None Include="Imagens\newCaixa\caixaAberto.png" />
+    <None Include="Imagens\newCaixa\moneymenor.png" />
+    <None Include="Imagens\newCaixa\caixaFechado.png" />
+    <None Include="Imagens\newCaixa\descAcresCaixa.png" />
+    <None Include="Imagens\minusminus.png" />
+    <None Include="Imagens\newcaixaestorno.png" />
+    <None Include="Imagens\newcaixagerencia.png" />
+    <None Include="Imagens\mercosul.png" />
+    <None Include="Imagens\newSuporte\newSup_Chat.png" />
+    <None Include="Imagens\newSuporte\newSup_Chamado.png" />
+    <None Include="Imagens\newSuporte\newSup_ativacao.png" />
+    <None Include="Imagens\newSuporte\newSup_cloud.png" />
+    <None Include="Imagens\newSuporte\newSup_contract.png" />
+    <None Include="Imagens\newSuporte\newSup_finances.png" />
+    <None Include="Imagens\newSuporte\newSup_dados.png" />
+    <None Include="Imagens\newSuporte\newSup_promo.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\caixa.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\clientes.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\compras.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\cupomfiscal.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\estoque.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\financeiro.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\fornecedor.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\newAtendimento.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\newbackup.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\newBackup2.png" />
+    <None Include="Imagens\NovaTelaPrincipal2012\newlistanfe.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\newSair.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\newsuporte.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\newvendas.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\pagar.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\papelParedeNew.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\produto.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\receber.png" />
+    <Content Include="Imagens\NovaTelaPrincipal2012\telanfe.png" />
+    <None Include="Imagens\NovaTelaPrincipal2012\transport.png" />
+    <None Include="Imagens\novoFundoAumenteSeuSistema.jpg" />
+    <None Include="Imagens\novoFundoAumenteSeuSistema.gif" />
+    <Content Include="Imagens\NovoSuporte\ajudaComNFe.png" />
+    <Content Include="Imagens\NovoSuporte\btnFaleFuturaData.png" />
+    <Content Include="Imagens\NovoSuporte\btnStatusOKBolinha.png" />
+    <Content Include="Imagens\NovoSuporte\btnVendas.png" />
+    <Content Include="Imagens\NovoSuporte\centralSuporte.png" />
+    <Content Include="Imagens\NovoSuporte\comunidades.png" />
+    <Content Include="Imagens\NovoSuporte\curtir.png" />
+    <Content Include="Imagens\NovoSuporte\desempenho.png" />
+    <Content Include="Imagens\NovoSuporte\logoNovo2010.jpg" />
+    <Content Include="Imagens\NovoSuporte\logoNovo2010.png" />
+    <Content Include="Imagens\NovoSuporte\mais.png" />
+    <Content Include="Imagens\NovoSuporte\maisV.png" />
+    <Content Include="Imagens\NovoSuporte\mais_funcionalidades.jpg" />
+    <Content Include="Imagens\NovoSuporte\mais_funcionalidades.png" />
+    <Content Include="Imagens\NovoSuporte\melhorando.png" />
+    <Content Include="Imagens\NovoSuporte\My_Computer_PNG_Icon_by_devinandi.png" />
+    <Content Include="Imagens\NovoSuporte\nfeaulas.png" />
+    <Content Include="Imagens\NovoSuporte\suporte.png" />
+    <Content Include="Imagens\NovoSuporte\team.png" />
+    <Content Include="Imagens\NovoSuporte\visualizarNFe.png" />
+    <Content Include="Imagens\NovosWallpapers2014\w1.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w10.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w11.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w12.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w13.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w14.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w15.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w16.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w17.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w18.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w19.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w2.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w20.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w21.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w22.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w23.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w24.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w25.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w26.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w27.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w28.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w29.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w3.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w30.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w31.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w32.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w33.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w34.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w35.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w36.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w37.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w38.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w39.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w4.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w40.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w41.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w42.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w43.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w44.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w45.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w46.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w47.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w48.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w49.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w5.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w50.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w51.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w52.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w53.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w54.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w55.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w56.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w57.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w58.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w59.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w6.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w60.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w61.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w62.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w63.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w64.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w65.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w66.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w7.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w8.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\w9.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini1.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini10.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini11.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini12.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini13.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini14.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini15.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini16.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini17.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini18.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini19.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini2.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini20.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini21.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini22.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini23.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini24.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini25.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini26.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini27.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini28.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini29.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini3.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini30.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini31.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini32.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini33.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini34.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini35.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini36.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini37.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini38.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini39.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini4.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini40.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini41.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini42.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini43.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini44.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini45.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini46.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini47.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini48.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini49.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini5.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini50.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini51.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini52.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini53.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini54.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini55.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini56.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini57.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini58.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini59.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini6.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini60.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini61.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini62.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini63.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini64.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini65.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini66.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini7.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini8.jpg" />
+    <Content Include="Imagens\NovosWallpapers2014\wmini9.jpg" />
+    <None Include="Imagens\orct_vendasimples.png" />
+    <None Include="Imagens\orct_vendacaixa.png" />
+    <Content Include="Imagens\OutlookBar\121.ico" />
+    <Content Include="Imagens\OutlookBar\Agenda.ico" />
+    <Content Include="Imagens\OutlookBar\Agenda.png" />
+    <Content Include="Imagens\OutlookBar\Calendario.ico" />
+    <Content Include="Imagens\OutlookBar\Calendario.png" />
+    <Content Include="Imagens\OutlookBar\date and time.ico" />
+    <Content Include="Imagens\OutlookBar\date and time.png" />
+    <None Include="Imagens\OutlookBar\estoque.png" />
+    <None Include="Imagens\OutlookBar\estoque2.png" />
+    <None Include="Imagens\OutlookBar\desfrag.png" />
+    <None Include="Imagens\OutlookBar\finance.png" />
+    <None Include="Imagens\OutlookBar\est.png" />
+    <Content Include="Imagens\OutlookBar\Financeiro.ico" />
+    <Content Include="Imagens\OutlookBar\Financeiro.png" />
+    <Content Include="Imagens\OutlookBar\Gestoes.ico" />
+    <Content Include="Imagens\OutlookBar\Gestoes.png" />
+    <None Include="Imagens\OutlookBar\impressora.png" />
+    <Content Include="Imagens\OutlookBar\InfoSistema.ico" />
+    <Content Include="Imagens\OutlookBar\InfoSistema.png" />
+    <None Include="Imagens\OutlookBar\Produtos.png" />
+    <None Include="Imagens\OutlookBar\marketing.png" />
+    <None Include="Imagens\OutlookBar\marketingmail.png" />
+    <Content Include="Imagens\OutlookBar\MovCaixa.ico" />
+    <Content Include="Imagens\OutlookBar\MovCaixa.png" />
+    <Content Include="Imagens\OutlookBar\MyComputer.ico" />
+    <None Include="Imagens\OutlookBar\prod.png" />
+    <Content Include="Imagens\OutlookBar\Produtos.ico" />
+    <None Include="Imagens\OutlookBar\produtos2.png" />
+    <Content Include="Imagens\OutlookBar\question.ico" />
+    <Content Include="Imagens\OutlookBar\question.png" />
+    <Content Include="Imagens\OutlookBar\ResumoBalcao.ico" />
+    <Content Include="Imagens\OutlookBar\ResumoBalcao.png" />
+    <Content Include="Imagens\OutlookBar\ResumoCaixa.ico" />
+    <Content Include="Imagens\OutlookBar\ResumoCaixa.png" />
+    <None Include="Imagens\OutlookBar\ResumoPagar.png" />
+    <Content Include="Imagens\OutlookBar\ResumoPagar.ico" />
+    <None Include="Imagens\OutlookBar\sair2.png" />
+    <None Include="Imagens\OutlookBar\sup.png" />
+    <Content Include="Imagens\OutlookBar\Suporte.ico" />
+    <Content Include="Imagens\OutlookBar\Suporte.png" />
+    <Content Include="Imagens\OutlookBar\VcSabia.ico" />
+    <Content Include="Imagens\OutlookBar\VcSabia.png" />
+    <Content Include="Imagens\OutlookBar\VocêSabia.png" />
+    <None Include="Imagens\xfmail.png" />
+    <None Include="Imagens\XP PPL15.png" />
+    <None Include="Imagens\SupRemoto.png" />
+    <None Include="Imagens\Visita.png" />
+    <None Include="Imagens\Tecnico.png" />
+    <None Include="Imagens\logoFuturaData.png" />
+    <None Include="Imagens\ParteBaixo.jpg" />
+    <None Include="Imagens\relatorioClientes.png" />
+    <None Include="Imagens\relatorioFornecedores.png" />
+    <None Include="Imagens\relatorioMovimentacao.png" />
+    <None Include="Imagens\relatorioVendas.png" />
+    <None Include="Imagens\relatorioFinanceiro.png" />
+    <None Include="Imagens\previsaoFat.png" />
+    <None Include="Imagens\parcelas.png" />
+    <None Include="Imagens\statusOrcamentoDesconhecido.png" />
+    <None Include="Imagens\statusOrcamentoInválido.png" />
+    <None Include="Imagens\statusOrcamentoOK.png" />
+    <None Include="Imagens\win.png" />
+    <None Include="Imagens\proc.png" />
+    <None Include="Imagens\redeAcesso.png" />
+    <None Include="Imagens\Thiago.jpg" />
+    <None Include="Imagens\RedeLocalizador.png" />
+    <None Include="Imagens\tomeNotaNota1A.png" />
+    <None Include="Imagens\telaPrincNFe\clientes.png" />
+    <None Include="Imagens\telaPrincNFe\clie.png" />
+    <None Include="Imagens\telaPrincNFe\prod.png" />
+    <None Include="Imagens\telaPrincNFe\transp.png" />
+    <None Include="Imagens\telaPrincNFe\ped.png" />
+    <None Include="Imagens\telaPrincNFe\nfeSaida.png" />
+    <None Include="Imagens\telaPrincNFe\nfeEntrada.png" />
+    <None Include="Imagens\telaPrincNFe\nfeProcura.png" />
+    <None Include="Imagens\telaPrincNFe\nfeOK.png" />
+    <None Include="Imagens\telaPrincNFe\pp.png" />
+    <None Include="Imagens\telaPrincNFe\back.png" />
+    <None Include="Imagens\telaPrincNFe\centroAjuda.png" />
+    <None Include="Imagens\telaPrincNFe\getOut.png" />
+    <None Include="Imagens\telaPrincNFe\nfeLista.png" />
+    <None Include="Imagens\telaPrincNFe\nfeFaturar.png" />
+    <None Include="Imagens\telaPrincNFe\nfeVisualizar.png" />
+    <None Include="Imagens\printerNFe.png" />
+    <None Include="Imagens\visualizarNFe.png" />
+    <None Include="Imagens\telaPrincNFe\OSPolisa.png" />
+    <None Include="Imagens\vendedorExclusivo.png" />
+    <None Include="Imagens\telaPrincNFe\iconeNFeConfig.png" />
+    <None Include="Imagens\usuarioSemFoto.png" />
+    <None Include="Imagens\suporteEspecializado.png" />
+    <None Include="Imagens\suaempresa.png" />
+    <None Include="Imagens\produtoSemFoto.png" />
+    <None Include="Imagens\produtofilho.png" />
+    <None Include="Imagens\tsSalvar.png" />
+    <None Include="Imagens\SyncServer.jpg" />
+    <None Include="Imagens\PostIt\mini_postit.png" />
+    <None Include="Imagens\pesquisaProdutos.png" />
+    <None Include="Imagens\plusplus.png" />
+    <Content Include="Imagens\PostIt\postit1.png" />
+    <Content Include="Imagens\PostIt\postit2.png" />
+    <Content Include="Imagens\PostIt\postit3.png" />
+    <Content Include="Imagens\PostIt\postit4.png" />
+    <Content Include="Imagens\PostIt\postit5.png" />
+    <Content Include="Imagens\PostIt\postit6.png" />
+    <Content Include="Imagens\PostIt\postit7.png" />
+    <Content Include="Imagens\PostIt\postit8.png" />
+    <Content Include="Imagens\PostIt\postit9.png" />
+    <Content Include="Imagens\PostIt\postit_Amarelo.bmp" />
+    <Content Include="Imagens\PostIt\postit_azul.bmp" />
+    <Content Include="Imagens\PostIt\postit_rosa.bmp" />
+    <Content Include="Imagens\PostIt\postit_roxo.bmp" />
+    <Content Include="Imagens\PostIt\postit_verde.bmp" />
+    <Content Include="Imagens\PostIt\postit_vermelho.bmp" />
+    <None Include="Imagens\productfamily.png" />
+    <None Include="Imagens\relatoriosNovos.png" />
+    <None Include="Imagens\report.png" />
+    <None Include="Imagens\super_suporte.png" />
+    <None Include="Imagens\super_suporte2.png" />
+    <None Include="Imagens\super_suporte3.png" />
+    <None Include="Imagens\super_suporte_final.png" />
+    <None Include="Imagens\super_suporte_maior.png" />
+    <None Include="Imagens\suporte_grande.png" />
+    <None Include="Imagens\sup_suportemin.png" />
+    <Content Include="logoFuturaDataIco.ico" />
+    <None Include="Resources\maclisa.png" />
+    <Content Include="logoNovo.ico" />
+    <None Include="logoPng3.png" />
+    <Content Include="newIcone.ico" />
+    <None Include="Resources\logoPng.png" />
+    <None Include="Resources\logoPng2.png" />
+    <None Include="Resources\postit_Amarelo.bmp" />
+    <None Include="Resources\postit_azul.bmp" />
+    <None Include="Resources\postit_rosa.bmp" />
+    <None Include="Resources\postit_roxo.bmp" />
+    <None Include="Resources\postit_verde.bmp" />
+    <None Include="Resources\postit_vermelho.bmp" />
+    <None Include="Resources\epson.png" />
+    <None Include="Resources\leitor.png" />
+    <None Include="Resources\tef.png" />
+    <None Include="Resources\vendaWeb.png" />
+    <None Include="Resources\vendaWeb1.png" />
+    <None Include="Resources\w1.jpg" />
+    <None Include="Resources\w2.jpg" />
+    <None Include="Resources\w3.jpg" />
+    <None Include="Resources\w4.jpg" />
+    <None Include="Resources\w5.jpg" />
+    <None Include="Resources\w6.jpg" />
+    <None Include="Resources\w7.jpg" />
+    <None Include="Resources\w8.jpg" />
+    <None Include="Resources\w9.jpg" />
+    <None Include="Resources\w10.jpg" />
+    <None Include="Resources\w11.jpg" />
+    <None Include="Resources\w12.jpg" />
+    <None Include="Resources\w13.jpg" />
+    <None Include="Resources\w14.jpg" />
+    <None Include="Resources\w15.jpg" />
+    <None Include="Resources\w16.jpg" />
+    <None Include="Resources\w17.jpg" />
+    <None Include="Resources\w18.jpg" />
+    <None Include="Resources\w19.jpg" />
+    <None Include="Resources\w20.jpg" />
+    <None Include="Resources\w21.jpg" />
+    <None Include="Resources\w22.jpg" />
+    <None Include="Resources\w23.jpg" />
+    <None Include="Resources\w24.jpg" />
+    <None Include="Resources\w25.jpg" />
+    <None Include="Resources\w26.jpg" />
+    <None Include="Resources\w27.jpg" />
+    <None Include="Resources\w28.jpg" />
+    <None Include="Resources\w29.jpg" />
+    <None Include="Resources\w30.jpg" />
+    <None Include="Resources\w31.jpg" />
+    <None Include="Resources\w32.jpg" />
+    <None Include="Resources\w33.jpg" />
+    <None Include="Resources\w34.jpg" />
+    <None Include="Resources\w35.jpg" />
+    <None Include="Resources\w36.jpg" />
+    <None Include="Resources\w37.jpg" />
+    <None Include="Resources\w38.jpg" />
+    <None Include="Resources\w39.jpg" />
+    <None Include="Resources\w40.jpg" />
+    <None Include="Resources\w41.jpg" />
+    <None Include="Resources\w42.jpg" />
+    <None Include="Resources\w43.jpg" />
+    <None Include="Resources\w44.jpg" />
+    <None Include="Resources\w45.jpg" />
+    <None Include="Resources\w46.jpg" />
+    <None Include="Resources\w47.jpg" />
+    <None Include="Resources\w48.jpg" />
+    <None Include="Resources\w49.jpg" />
+    <None Include="Resources\w50.jpg" />
+    <None Include="Resources\w51.jpg" />
+    <None Include="Resources\w52.jpg" />
+    <None Include="Resources\w53.jpg" />
+    <None Include="Resources\w54.jpg" />
+    <None Include="Resources\w55.jpg" />
+    <None Include="Resources\w56.jpg" />
+    <None Include="Resources\w57.jpg" />
+    <None Include="Resources\w58.jpg" />
+    <None Include="Resources\w59.jpg" />
+    <None Include="Resources\w60.jpg" />
+    <None Include="Resources\w61.jpg" />
+    <None Include="Resources\w62.jpg" />
+    <None Include="Resources\w63.jpg" />
+    <None Include="Resources\w64.jpg" />
+    <None Include="Resources\w65.jpg" />
+    <None Include="Resources\w66.jpg" />
+    <None Include="refresh_ecf.png" />
+    <None Include="Resources\usoChat.png" />
+    <None Include="Resources\Logotipo Final FuturaData.png" />
+    <None Include="Resources\arrastacao.png" />
+    <None Include="Resources\btnStatusRuimPeq.png" />
+    <None Include="Resources\btnStatusOKMin.png" />
+    <None Include="Resources\btnStatusDescMin.png" />
+    <None Include="Resources\btnAtencaoPqMin.png" />
+    <None Include="Imagens\semconexao.png" />
+    <None Include="Resources\RetirarOrcto2.png" />
+    <None Include="Resources\RetirarOrcto.png" />
+    <None Include="Resources\PesquisarProd.png" />
+    <None Include="Resources\PesqDescr.png" />
+    <None Include="Resources\FecharVenda.png" />
+    <None Include="Resources\CodOrig.png" />
+    <None Include="Resources\CodLoja.png" />
+    <None Include="Resources\CodFabr.png" />
+    <None Include="Resources\AdicionarProdAoOrct.png" />
+    <None Include="Resources\AdicionarProd.png" />
+    <None Include="Resources\default.png" />
+    <None Include="Resources\TEX.png" />
+    <None Include="Resources\Informacoes.png" />
+    <None Include="Resources\caixa.png" />
+    <None Include="Resources\btnprimeirocad.jpg" />
+    <None Include="Resources\btnultimocad.jpg" />
+    <None Include="Resources\btnalterar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLL\DllFuturaDataTCC.csproj">
+      <Project>{f98bc396-0a6e-4ca7-a941-2ee78b308d79}</Project>
+      <Name>DllFuturaDataTCC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

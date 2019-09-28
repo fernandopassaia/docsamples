@@ -1,0 +1,15 @@
+<!--Farei um COMPONENTE de TextBox que permitirá desenhar vários textbox com seus validators, suas cores para campo não preenchido, suas validações e tudo mais.
+E ai esse componente será compartilhado por toda aplicação. Senão terei que ficar jogando todo esse código abaixo pra cada input (Aula 61) -->
+
+<!--o campo iptAdress (marcado abaixo) ganhará o "válido" qyabdi estiver válido E sujo (com texto) ou tocado (com foco, o usuário estiver nele) -->
+<div class="form-group" [class.has-success]="hasSuccess()"
+                        [class.has-error]="hasError()"> <!-- chamo os métodos lá no meu ts pra verificar se botões foram tocados, etc -->
+  <label class="control-label sr-only" for="inputSuccess"><i class="fa fa-check"></i> {{label}}</label> <!-- iptAddress é uma ngVariable pra pegar o valor desse "address" (ngModel) -->
+  
+  <!--<input type="text" class="form-control" name="adress" required minlength="5" #iptAddress="ngModel" ngModel placeholder="Endereço" autocomplete="off">-->
+  <!-- O input foi substituido por Técnica é chamada de Content Projection. ng-content é uma TAG similar ao routercontent. E dentro dela você vai botar um componente, sbstituindo o input.  -->
+  <ng-content></ng-content>
+
+  <span class="help-block" *ngIf="hasSuccess()"><i class="fa fa-check"></i> OK</span> <!-- lança um "OK" verde se estiver válido-->
+  <span class="help-block" *ngIf="hasError()"><i class="fa fa-remove"></i> {{errorMessage}} </span> <!-- lança um "Campo obrigatório" vermelho se estiver válido-->
+</div>

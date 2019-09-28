@@ -1,0 +1,120 @@
+<div class="container">
+
+<mat-card>
+  <mat-toolbar color="accent">
+    <div align="center" style="color:white;text-align: right;">
+
+      CRUD operation in Angular 7 using Web api and Sql Database
+    </div>
+   
+  </mat-toolbar>
+<br><br>
+  <mat-card-content>
+    <form [formGroup]="employeeForm" (ngSubmit)="onFormSubmit(employeeForm.value)">
+
+            <table>
+              <tr>
+                <td class="tbl1">
+                  <mat-form-field class="demo-full-width">
+                    <input formControlName="EmpName" matTooltip="Enter Employee Name" matInput placeholder="Employee Name">
+                  </mat-form-field>
+                  <mat-error>
+                    <span *ngIf="!employeeForm.get('EmpName').value && employeeForm.get('EmpName').touched"></span>
+                  </mat-error>
+                </td>
+                <td class="tbl1">
+                  <mat-form-field class="demo-full-width">
+                    <input matInput [matDatepicker]="picker" matTooltip="Enter Date Of Birth" formControlName="DateOfBirth" placeholder="Choose Date Of Birth">
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                  </mat-form-field>
+                  <mat-error>
+                    <span *ngIf="!employeeForm.get('DateOfBirth').value && employeeForm.get('DateOfBirth').touched"></span>
+                  </mat-error>
+                </td>
+                <td class="tbl1">
+                  <mat-form-field class="demo-full-width">
+                    <input formControlName="EmailId" matTooltip="Enter EmailId" matInput placeholder="EmailId">
+                  </mat-form-field>
+                  <mat-error>
+                    <span *ngIf="!employeeForm.get('EmailId').value && employeeForm.get('EmailId').touched"></span>
+                  </mat-error>
+                </td>
+
+              </tr>
+              <tr>
+                <td class="tbl1">
+                  <span>Gender</span>
+                  <br><br>
+                  <mat-radio-group matTooltip="Enter Gender" formControlName="Gender">
+                      <mat-radio-button value="0">Male</mat-radio-button>&nbsp;&nbsp;
+                      <mat-radio-button value="1">Female</mat-radio-button>
+                    </mat-radio-group>
+                  <mat-error>
+                    <span *ngIf="!employeeForm.get('Gender').value && employeeForm.get('Gender').touched"></span>
+                  </mat-error>
+                </td>
+                <td class="tbl1">
+                  <mat-form-field class="demo-full-width">
+                    <input matTooltip="Enter Address" formControlName="Address" matInput placeholder="Address">
+                  </mat-form-field>
+                  <mat-error>
+                    <span *ngIf="!employeeForm.get('Address').value && employeeForm.get('Address').touched"></span>
+                  </mat-error>
+                </td>
+                <td class="tbl1">
+                  <mat-form-field class="demo-full-width">
+                    <input formControlName="PinCode" matTooltip="Enter Pine Code" matInput placeholder="PinCode">
+                  </mat-form-field>
+                  <mat-error>
+                    <span *ngIf="!employeeForm.get('PinCode').value && employeeForm.get('PinCode').touched"></span>
+                  </mat-error>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td  class="content-center">
+                  <button type="submit" mat-raised-button color="accent" matTooltip="Click Submit Button" [disabled]="!employeeForm.valid">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <button type="reset" mat-raised-button color="accent" matTooltip="Click Reset Button" (click)="resetForm()">Reset</button>
+                </td>
+                <td>
+                  <p *ngIf="dataSaved" style="color:rgb(0, 128, 0);font-size:20px;font-weight:bold" Class="success" align="left">
+                    {{massage}}
+                  </p>
+                </td>
+              </tr>
+            </table>
+<br><br>
+      <table class="table" >
+          <tr ngclass="btn-primary">
+            <th class="tbl2">Employee Name</th>
+            <th class="tbl2">Date Of Birth</th>
+            <th class="tbl2">Email Id</th>
+            <th class="tbl2">Gender</th>
+            <th class="tbl2">Address</th>
+            <th class="tbl2">Pine Code</th>
+            <th class="tbl2">Edit</th>
+            <th class="tbl2">Delete</th>
+          </tr>
+          <tr *ngFor="let employee of allEmployees | async">
+            <td class="tbl2">{{employee.EmpName}}</td>
+            <td class="tbl2">{{employee.DateOfBirth | date }}</td>
+            <td class="tbl2">{{employee.EmailId}}</td>
+            <td class="tbl2">{{employee.Gender ==0? 'Male' : 'Female'}}</td>
+            <td class="tbl2">{{employee.Address}}</td>
+            <td class="tbl2">{{employee.PinCode}}</td>
+            <td class="tbl2">
+              <button type="button" class="btn btn-info" matTooltip="Click Edit Button" (click)="loadEmployeeToEdit(employee.EmpId)">Edit</button>
+            </td>
+            <td class="tbl2">
+              <button type="button" class="btn btn-danger" matTooltip="Click Delete Button" (click)="deleteEmployee(employee.EmpId)">Delete</button>
+            </td>
+          </tr>
+
+        </table>
+
+    </form>
+  </mat-card-content>
+</mat-card>
+
+</div>

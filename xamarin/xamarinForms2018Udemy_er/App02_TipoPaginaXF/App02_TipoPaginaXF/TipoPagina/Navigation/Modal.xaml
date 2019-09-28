@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App02_TipoPaginaXF.TipoPagina.Navigation.Modal">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightBlue">
+            <StackLayout HeightRequest="50" BackgroundColor="LightBlue">
+            <!-- altura do Modal -->
+            <Label Text="Eu sou o Titulo do Modal" />
+            <Button Text="X" Clicked="FecharModal" />
+        </StackLayout>
+        <Label Text="Eu sou um Modal"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

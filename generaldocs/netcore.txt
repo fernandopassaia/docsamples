@@ -1,0 +1,15 @@
+DotNet Core Documentation:
+------------------------------------------------------------------------------------------------------------
+
+Commands DotNet Core:
+dotnet restore (recupera pacotes nuget)
+dotnet build (verifica erros)
+dotnet run (roda o app)
+
+------------------------------------------------------------------------------------------------------------
+
+Commands EF Core:
+dotnet ef --startup-project ../AssetsControl.Api/ migrations add FirstBase (na pasta Infra)
+dotnet ef --startup-project ../AssetsControl.Api/ database update (na pasta Infra)
+dotnet ef database update (sincroniza o banco de dados com as migrations)
+dotnet ef migrations remove

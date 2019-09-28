@@ -1,0 +1,23 @@
+<div *ngIf="student"> <!--ele vai verificar se há estudante pra ler-->
+  Student: {{student?.name}} <!-- Aqui eu pego o campo lá da minha classe --> <br>
+
+  Estudante clicável (imprime nome console): <a href="#" (click)="clicado()"> {{student?.name}} </a> <br><!-- Agora um exemplo chamando o Evento Click (ao clicar em cima) e o código está lá na minha classe .ts -->
+  
+  <!-- Nota: Exemplo 2 Nesse exemplo eu uso um HIDDEN, se você olhar o HTML da página, verá que ele está lá, mas escondido por CSS - exemplo meio "zoado" 
+  <div [hidden]="!student.programador"> Aqui eu faço uma checagem se estudante é um programador
+    Estudante é programador! Universidade: {{student.universidade}}
+  </div> NOTA IMPORTANTE: A INTERROGRAÇÃO nas propriedades diz pro Angular que se elas estiverem vazias (undefined), ele não deve tentar ler (e gerar erros no HTML)  --> 
+
+  <!-- mostrando como um botão pode chamar um evento que dá foco na TextBox-->
+  <button (click)="description.focus()">Focus!</button>
+  <textarea #description></textarea>
+
+  <!-- Exemplo 3 Aqui eu estou refatorando o código só que de maneira bem melhor: usando o ngIf - desse modo o campo não será desenhado e escondido por css (bem + seguro) -->
+  <div *ngIf="student?.programador"> <!-- Aqui eu faço uma checagem se estudante é um programador -->
+    Estudante é programador! Universidade: {{student?.universidade}}
+  </div>
+<br>
+</div>
+<p *ngIf="!student"> <!-- se não houver estudante, ele dará essa mensagem -->
+  Sem dados de estudantes para exibir.
+</p>

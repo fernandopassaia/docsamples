@@ -1,0 +1,37 @@
+﻿.home {
+}
+
+    .home .create .file_progress {
+        margin: 10px 0 0 0;
+        width: 150px;
+    }
+
+    .home .manufact_row {
+        padding: 10px 0 10px 0;
+    }
+
+        .home .manufact_row .logo_container {
+            display: table-cell;
+            height: 256px;
+            width: 256px;
+        }
+
+            .home .manufact_row .logo_container .logo_image {
+                display: table-cell;
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+
+        .home .manufact_row .details {
+            display: table-cell;
+            vertical-align: middle;
+            padding-left: 10px;
+        }
+
+        .home .manufact_row .buttons {
+            align-items: center;
+            display: flex;
+            height: 256px;
+            float: right;
+        }

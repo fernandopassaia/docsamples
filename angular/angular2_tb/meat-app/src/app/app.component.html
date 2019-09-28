@@ -1,0 +1,29 @@
+<div class="wrapper">
+
+  <mt-header></mt-header>
+
+  <!-- Full Width Column -->
+  <div class="content-wrapper">
+    <div class="container">
+
+      <!-- Troquei o conteúdo definido pelo meu router-outlet que chamará rotas dinâmicas
+      <mt-home></mt-home>-->
+
+      <!-- Nota: Nesse lugar "dinâmico" chamado Router Outlet, eu irei exibir meus conteúdos dinâmicamente. Então por exemplo:
+      Se eu entrar no header.component.html verá que no botão "About" eu faço uma chamada que será refletida aqui no Router-Outlet-->
+      <router-outlet></router-outlet>      
+
+    </div>
+  </div>
+
+  <!-- snakbar deve ser aqui -->
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="pull-right hidden-xs">
+        <b>Version</b> 1.0.0
+      </div>
+      <strong>Meat</strong> Angular Application
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,6 @@
+17/05/2019 Note:
+
+I was Developing an UI for the FutureOfMedia Project, when they Call me. So I'm Archiving this project,
+when i had sometime in the Future i Continue it. Just to clear:
+
+GET Method and Index (List) is Working Perfect! Miss the Post/Put/Delete Interfaces, but base is ready!

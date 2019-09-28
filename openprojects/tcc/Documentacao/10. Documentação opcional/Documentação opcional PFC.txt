@@ -1,0 +1,12 @@
+- Diagrama ORM (Mapeamento Objeto Relacional) - OK
+- Diagrama de implantação
+- Diagrama de estados
+- Outros diagramas da UML
+
+- Cronorama de atividades
+- Atas de reuniões
+- Outros documentos gerenciais
+
+- Manuais do usuário
+- Documentação de treinamentos
+- Outros

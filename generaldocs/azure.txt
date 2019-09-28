@@ -1,0 +1,6 @@
+Anotação para Curso de Azure:
+
+* VSCode - Baixar a Extensão Azure App Service para integrar.
+* Serviços de Aplicativos (onde você armazena seu site)
+
+------------------------------------------------------------------------------------------------------------

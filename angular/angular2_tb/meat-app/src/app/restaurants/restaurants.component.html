@@ -1,0 +1,23 @@
+ <!-- INíCIO do CONTEÚDO -->
+ <section class="content-header">
+    <h1>
+      Todos os Restaurantes
+    </h1>
+  </section>
+
+
+  <section class="content">
+
+    <div class="row">
+      <!-- aqui eu substitui pelo meu componente de restaurante - ficou show demais, o código era enorme
+      caso tenha interesse dê uma olhada no template que está na pasta. Aqui eu coloquei meu componente
+      individual e ai eu preciso passar um restaurante pra ele (array lá no .ts) - farei um for nele
+      e um property binding para pegar o ITEM que está sendo gerado no meu ngFor (item do array de 2 itens) -->
+      <div *ngFor="let restaurant of restaurants" class="col-sm-6 col-xs-12">
+        <mt-restaurant [restaurant]="restaurant"></mt-restaurant>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FIM  do CONTEÚDO -->

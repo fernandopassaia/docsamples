@@ -1,0 +1,83 @@
+Docker é uma plataforma que permite criar, enviar, executar qualquer aplicativo em qualquer lugar.
+
+O principal benefício é que os desenvolvedores "empacotam" um aplicativo com todas suas dependências em
+uma unidade padronizada (container) e depois poderá ser executado em ambientes distintos.
+
+Container: É um espaço reservado de memória que é executado independentemente e isoladamente de outros
+containers ou do próprio host. O Docker permite o empacotamento de uma aplicação ou ambiente inteiro de um
+container, a partir desse momento o ambiente inteiro torna-se portável para qualquer outro host com Docker.
+
+A Diferença entre um Container e uma Máquina Virtual, é que o docker compartilha o kernel do ambiente host
+sem precisar criar máquinas virtuais inteiras e com isso tem melhor desempenho e consumo de memória.
+
+Para poder ser executado, um container possui associado a ele um sistema de arquivos completo e isolado que
+contêm as dependências e bibliotecas necessárias. Esse sistema de arquivos somente-leitura são conhecidos
+como Imagens; e a partir das imagens é que os containers são criados.
+
+A imagem é a representação estática da aplicação, suas configurações e dependências. É executada como um
+processo na memória do host (máquina principal).
+
+Registry: É o repositório de imagens prontas para criar containers.
+
+https://hub.docker.com
+https://hub.docker.com/r/microsoft/dotnet
+
+Ubuntu - dica pra rodar o Docker no terminal sem precisar dar sudo toda hora:
+sudo groupadd docker
+sudo gpasswd -a fernandopassaia docker
+sudo service docker restart
+newgrp Docker
+
+Principais comandos do Docker:
+
+* docker container run hello-world (hello world é uma imagem pronta mínima, olha lá no Hub (site acima) que
+ela existe). (Nota: Cuidado pois o "run" sempre cria um novo container, use o "ps -a" e o start pra iniciar
+um container existente).
+* docker container ps (mostra os serviços containers que estão rodando).
+* docker container ps -a (mostra todos, inclusive os que não estão rodando).
+* docker container images (mostra as imagens de containers que foram baixadas).
+
+* sudo docker ps -a (lista os repositórios dockers instalados)
+* Criar Repo SQL 2019: docker run --name testesqlserver2019-ctp2-2 -e 'ACCEPT_EULA=Y' -e 
+'SA_PASSWORD=@1234Fd@' -v 
+/media/fernandopassaia/F2A899EEA899B219/PcDevGit/netcore/groffe/sqldata:/var/opt/mssql -p 41433:1433 -d 
+mcr.microsoft.com/mssql/server:2019-CTP2.2-ubuntu
+* sudo docker start e1a5bdde4c60 (pegar dados do repositório que apareceu no ps -a e ele sobe o repositório)
+* sudo docker stop e1a5bdde4c60 (para o serviço)
+* sudo docker ps (ver se está rodando no sistema - ps de "processes")
+* sudo docker logs e1a5bdde4c60 (mostra o log do container, caso algo saia errado)
+* sudo docker rm e1a5bdde4c60 (remove um container)
+* sudo docker images (mostra as imagens que foram baixadas na minha máquina)
+
+
+------------------------------------------------------------------------------------------------------------
+
+*---------------------* Instalando Postgres no Docker:
+(1) docker run -d -p 5432:5432 --name postgres -e POSTGRES_USER=fernandopassaia -e 
+POSTGRES_PASSWORD=@1234Fd@ -e POSTGRES_DB=heroes postgres
+Nota: Primeiro nome (postgres) é o nome do Repo, o último é o nome interno (poderia ser PostgresFer). 
+Primeira porta é externa, segunda interna, "heroes" é o nome do BD que to mandando ele criar. -d significa
+que é pra rodar em segundo plano.
+
+(2) docker run --name adminer -p 8080:8080 --link postgres:postgres -d adminer
+Nome da Ferramenta é adminer, porta externa e interna 8080, no "link" eu digo que esssa ferramenta pode
+acessar o Postgres, -d eu digo que rodará em segundo plano e o nome dele eu digo que é adminer. -d significa
+que é pra rodar em segundo plano.
+
+(3) docker exec -it postgres /bin/bash (entro no terminal do postgres, ls lista, é um linux).
+
+*---------------------* Instalando MongoDB no Docker:
+docker run --name mongo -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e 
+MONGO_INITDB_ROOT_PASSWORD=@1234Fd@ mongo
+
+Cliente Web para MongoDB:
+docker run --name mongoclient -p 3000:3000 --link mongo:mongo -d mongoclient/mongoclient
+(Ai abra o Browser localhost:3000, clique em add connection, host mongo, database name admin, na aba
+autentication coloque scram-sha-1, username admin, senha @1234Fd@, autenthicationDB admin)
+
+Criando e liberando o banco de dados na linha de comando:
+docker exec -it mongo mongo --host localhost -u admin -p @1234Fd@ --authenticationDatabase admin --eval
+"db.getSiblingDB('herois').createUser({user: 'fernandopassaia', pwd: '@1234Fd@', roles: 
+[{role: 'readWrite', db: 'herois'}]})"
+(após criar o usuário acima, crie uma nova conexão no localhost:3000 com banco herois e usuário que passei
+acima)

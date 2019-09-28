@@ -1,0 +1,5 @@
+Achei 3 versões do Template FULL no GitHub sendo 2 mais antigas e 1 bem recente:
+
+https://github.com/weimingxuan/angular-material-dashboard
+https://github.com/wangdicoder/angular-material-dashboard
+https://github.com/ACLSystems/matDashProAng (versão 2.3.0 de 062019 Show!)

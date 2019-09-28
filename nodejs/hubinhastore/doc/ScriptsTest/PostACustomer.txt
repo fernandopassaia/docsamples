@@ -1,0 +1,40 @@
+{
+	"name":"",
+	"document":"",
+	"email":"",
+	"password":"",
+	"active":true,
+	"billingAddress":{
+		"zipCode":"99999-999",
+		"street":"My Street Fer Billing",
+		"number":"51",
+		"complement":"C Block",
+		"neighborhood":"Centrum",
+		"city":"Budapest",
+		"state":"Budapest",
+		"cowtry":"Hungary"
+	},
+	"shippingAddress":{
+		"zipCode":"99999-999",
+		"street":"My Street Fer Shipping",
+		"number":"51",
+		"complement":"C Block",
+		"neighborhood":"Centrum",
+		"city":"Budapest",
+		"state":"Budapest",
+		"cowtry":"Hungary"
+	},
+	"creditCard":{
+		"holder":"My name on Card",
+		"number":"1234 5678 9098 7654",
+		"expiration":"0520"
+	},
+	"pets":[
+		{
+			"name": "Hubinha",
+			"gender": "MoreOrLess Male",
+			"kind" : "dog",
+			"brand": "Shit szu"
+		}
+	]
+}

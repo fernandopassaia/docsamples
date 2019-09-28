@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOBRF_Criptografia", "CSOBRF_Criptografia\CSOBRF_Criptografia.csproj", "{EB1A439A-2512-4C6C-91E6-DAFF8943F35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOBRF_Fiscal", "CSOBRF_Fiscal\CSOBRF_Fiscal.csproj", "{C645DC8D-6FB9-4E5B-B1F8-79C9FA984D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOBRF_ExemploConsumoWinForms", "CSOBRF_ExemploConsumoWinForms\CSOBRF_ExemploConsumoWinForms.csproj", "{E9BDF667-0466-4224-B08B-51DDADDD4927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOBRF_Util", "CSOBRF_Util\CSOBRF_Util.csproj", "{394948F5-5FA7-46FA-9BD7-0CFD284FA3BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSOBRF_Validacoes", "CSOBRF_Validacoes\CSOBRF_Validacoes.csproj", "{4E15C02C-D93C-4C91-93A4-5D4B5B276FAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB1A439A-2512-4C6C-91E6-DAFF8943F35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1A439A-2512-4C6C-91E6-DAFF8943F35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1A439A-2512-4C6C-91E6-DAFF8943F35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1A439A-2512-4C6C-91E6-DAFF8943F35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C645DC8D-6FB9-4E5B-B1F8-79C9FA984D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C645DC8D-6FB9-4E5B-B1F8-79C9FA984D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C645DC8D-6FB9-4E5B-B1F8-79C9FA984D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C645DC8D-6FB9-4E5B-B1F8-79C9FA984D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BDF667-0466-4224-B08B-51DDADDD4927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BDF667-0466-4224-B08B-51DDADDD4927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BDF667-0466-4224-B08B-51DDADDD4927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BDF667-0466-4224-B08B-51DDADDD4927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394948F5-5FA7-46FA-9BD7-0CFD284FA3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394948F5-5FA7-46FA-9BD7-0CFD284FA3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394948F5-5FA7-46FA-9BD7-0CFD284FA3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394948F5-5FA7-46FA-9BD7-0CFD284FA3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E15C02C-D93C-4C91-93A4-5D4B5B276FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E15C02C-D93C-4C91-93A4-5D4B5B276FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E15C02C-D93C-4C91-93A4-5D4B5B276FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E15C02C-D93C-4C91-93A4-5D4B5B276FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C105790-F099-42C1-97FD-D45AC14D16E4}
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

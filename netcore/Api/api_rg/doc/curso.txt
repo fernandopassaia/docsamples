@@ -1,0 +1,74 @@
+Curso Asp.Net Core com SQL Server 2019 - Webinar do Renato Groffe no Canal da Glaucia Lemos.
+Vídeo: https://www.youtube.com/watch?v=6WKwHc0oEoE
+GitHub: https://github.com/renatogroffe/ASPNETCore2.2_APIIndicadores
+
+(1) Docker (comando contém instruções pra trocar a pasta de Data do SQL pra minha pasta de Data, troca a porta padrão por 41433 pra não conflitar com local):
+* sudo docker ps -a (lista os repositórios dockers instalados)
+* Criar Repo SQL 2019: docker run --name testesqlserver2019-ctp2-2 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=@1234Fd@' -v /media/fernandopassaia/F2A899EEA899B219/PcDevGit/netcore/groffe/sqldata:/var/opt/mssql -p 41433:1433 -d mcr.microsoft.com/mssql/server:2019-CTP2.2-ubuntu
+* sudo docker start e1a5bdde4c60 (pegar dados do repositório que apareceu no ps -a e ele sobe o repositório)
+* sudo docker ps (ver se está rodando no status)
+* sudo docker logs e1a5bdde4c60 (mostra o log do container, caso algo saia errado)
+* sudo docker rm e1a5bdde4c60 (remove um container)
+* sudo docker images (mostra as imagens que foram baixadas na minha máquina)
+
+(2) SQL Server:
+Após criar o SQL Server acima, você abre o Azure Data Studio e usa pra se conectar:
+localhost,41433
+usuário: sa
+senha: @1234Fd@
+Nome: SqlServerDocker (pra ficar registrado)
+
+E cria a Base de Dados com o Script que está na pasta Doc (onde está esse TXT).
+
+(3) Swagger:
+* Geração de um site todo documentando APIs com pouquíssimo código, além de contar com funcionalidades de testes.
+* Pro Swagger funcionar eu tive que adicionar Documentação de Retorno nas APIs no Controller, então ProducesResponseType e ApiConventionMethod.
+* Foi colocado um código no StartUp.cs pra fazer o Swagger funcionar, eu documentei lá dentro da classe.
+* Após isso o Swagger funcionou, só dar o dotnet run e abrir pela URL: https://localhost:5001/swagger
+* Nota: Se eu gerar aquelas documentações com 3 barras /// o Swagger vai exportar isso pro site de documentação gerado.
+
+(4) Dapper:
+Será usado Dapper ao invés de EF. É um Framework pra dados, pelo que Groffe disse é bem mais rápido, mas não tão grande e bom como EF, como é só um exemplo, será usado ele. Dapper é uma "extensão" de melhorias feitas em cima do ADO.
+
+(5) DotNet Core:
+
+(1) Comandos pra Instalação do .Net Core SDK 2.2 no Linux Ubuntu 18.04:
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/prod.list
+sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
+sudo apt update
+sudo add-apt-repository universe
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-sdk-2.2
+
+dotnet --version (mostra a versão instalada - )
+dotnet new (lista todos os templates)
+dotnet new webapi -n APIIndicadores (-n é de name, do projeto)
+dotnet run (na raíz do projeto roda o projeto)
+dotnet build (na raiz do projeto compila e mostra eventuais erros)
+dotnet tool list -g (lista as ferramentas instaladas)
+
+(6) Mexendo no Visual Studio Code e na Estrutura do Projeto - Passo a Passo do Dev/Rodar:
+(1) Setar a String de Conexão no appsettings.json
+(2) Via linha de comando no diretório, adicione o Dapper: dotnet add package Dapper
+(3) Via linha de comando no diretório, adicione o Swagger: Swashbuckle.AspNetCore
+(4) Após rodar o projeto (dotnet run) a API está em: https://localhost:5001/api/indicadores
+
+(6) Browser (Firefox - Caminhos):
+https://localhost:5001/api/indicadores (página principal, volta o Json)
+https://localhost:5001/api/indicadores/salario (chama o método/webapi que recebe uma string siglaIndicador)
+https://localhost:5001/swagger (URL para o Swagger de documentação)
+
+(7) DotNet-HttpRepl (ReadEvalPrintLoop) é um Validador de Comandos - pra fazer Testes em WebApi. Roda Get, Post, Delete.
+Para instalar no Linux: dotnet tool install -g --version 2.2.0-* --add-source https://dotnet.myget.org/F/dotnet-core/api/v3/index.json dotnet-httprepl
+
+(Nota: Está com problema no Linux, funciona só no Windows, já tem insue aberta para corrigirem).
+
+Para testar:
+dotnet-httprepl (ai ele abre o prompt)
+set base https://localhost:5001 (caminho que está rodando a API) (ele vai aparecer que está usando o swagger.json)
+ls (listo o diretório)
+cd api (abro o diretório api)
+cd Indicadores (entro dentro das operações possíveis, ele vai listar o que há de possível para a API)
+get (se eu der um GET, ele vai chamar a API e listar na tela o retorno dela, o JSON será impresso no console)
+get SELIC (listaria pra mim apenas o indicador SELIC - segunda action)

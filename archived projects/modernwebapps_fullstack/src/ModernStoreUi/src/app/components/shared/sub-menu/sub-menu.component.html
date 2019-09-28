@@ -1,0 +1,16 @@
+<div id="navbarMenuHeroB" class="nav-right navbar-menu">
+    <div class="navbar-end">
+        <button (click)="addItem()">ADD</button>
+      <a class="navbar-item is-active" routerLink="/home">Home</a>
+      <a class="navbar-item" routerLink="/cart">Carrinho ({{ totalItems }})</a>
+      <a class="navbar-item" routerLink="/profile">Meu Perfil</a>
+      <span class="navbar-item">
+        <a class="button is-info is-inverted" routerLink="/">
+            <span class="icon">
+                <i class="fab fa-power-off"></i>
+            </span>
+            <span>Sair</span>
+        </a>
+      </span>
+    </div>
+  </div>

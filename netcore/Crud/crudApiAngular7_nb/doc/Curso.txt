@@ -1,0 +1,9 @@
+Artigo sobre Angular 7 com .Net Core EF + WebApi Rest. https://neelbhatt.com/2018/12/09/angular-7-spa-crud-with-asp-net-core-and-entity-framework-core/
+P.S: Tem duas pastas no diretório, uma é o projeto Angular (front) e o outro o projeto DotNetCore (backend).
+
+------------ Angular 7:
+(1) Instalar o Angular de forma Global com: npm install -g @angular/cli
+(2) ng new crudApiAngular7_nb (ele cria a pasta - e vai perguntar sobre adicionar Angular Routing, selecione y, e depois CSS).
+(3) Abra o Package.json e veja em dependencies se ele está usando o angular7.
+
+

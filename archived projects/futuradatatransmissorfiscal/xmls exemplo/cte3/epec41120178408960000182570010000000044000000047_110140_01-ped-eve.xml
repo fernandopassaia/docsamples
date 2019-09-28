@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eventoCTe versao="3.00" xmlns="http://www.portalfiscal.inf.br/cte">
+  <infEvento Id="ID1101404312017840896000018257001000000004400000004701">
+    <cOrgao>43</cOrgao>
+    <tpAmb>2</tpAmb>
+    <CNPJ>78408960000182</CNPJ>
+    <chCTe>43120178408960000182570010000000044000000047</chCTe>
+    <dhEvento>2017-02-09T14:08:00-02:00</dhEvento>
+    <tpEvento>110140</tpEvento>
+    <nSeqEvento>1</nSeqEvento>
+    <detEvento versaoEvento="3.00">
+      <evEPECCTe>
+        <descEvento>EPEC</descEvento>
+        <xJust>Teste de envio do epec.</xJust>
+        <vICMS>0.00</vICMS>
+        <vTPrest>0.00</vTPrest>
+        <vCarga>0.00</vCarga>
+        <Toma4>
+          <Toma>0</Toma>
+          <UF>RS</UF>
+          <CNPJ>06117473000150</CNPJ>
+        </Toma4>
+        <Modal>01</Modal>
+        <UFIni>RS</UFIni>
+        <UFFIm>RS</UFFIm>
+        <tpCTe></tpCTe>
+        <dhEmi>2017-02-09T14:08:00-02:00</dhEmi>
+      </evEPECCTe>
+    </detEvento>
+  </infEvento>
+</eventoCTe>

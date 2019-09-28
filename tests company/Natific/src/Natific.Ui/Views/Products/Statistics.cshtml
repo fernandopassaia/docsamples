@@ -1,0 +1,49 @@
+﻿@model Natific.Ui.Models.Results.GetStatisticsResult
+
+@{
+    ViewBag.Title = "Statistics";
+}
+
+<h2>Statistics</h2>
+
+<div>
+    <h4>Statistics</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalWeight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalWeight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MostItemStock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MostItemStock)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MostWeightStock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MostWeightStock)
+        </dd>
+
+    </dl>
+</div>
+<p>    
+    @Html.ActionLink("Back to List", "Index")
+</p>

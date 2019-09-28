@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App01_ConsultarCEP.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30"> <!-- padding generate a distance of 30 to all sides/borders -->
+        <!-- Stack Layout allows me to PILL (put) a lot of elements inside -->
+        <!-- Place new controls here -->
+
+        <Image Source="Logo.png" x:Name="imgLogo" />
+
+        <Entry Placeholder="Digite o Cep" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="tbxCep"/> <!-- Entry is my TextBox Input -->
+
+        <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="btnBuscar" />
+
+        <Label Text="" x:Name="lblResultado"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>

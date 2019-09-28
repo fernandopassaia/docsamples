@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App03_LayoutXF.Layouts.Relative.RelativePage">
+    <ContentPage.Content>
+
+        <!-- The First StackLayout on a Page will always be the Principal and takes 100% of the Dimension. You can use StackLayout to organize
+        things, to align elements under, on side. You can mix it with another Layouts elements or even have more than 1 StackLayout on same page. -->
+
+        <RelativeLayout>
+            <BoxView RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5,Constant=-50 }" />            
+            <BoxView BackgroundColor="Red" Margin="200" WidthRequest="100" HeightRequest="100" x:Name="Vermelho" />
+            <BoxView BackgroundColor="Green" WidthRequest="100" HeightRequest="100"
+                     RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Vermelho, Property=X, Factor=1,Constant=20}"
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Vermelho, Property=Y, Factor=1,Constant=20}"                     
+                     />
+        </RelativeLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

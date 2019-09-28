@@ -1,0 +1,64 @@
+Anotações Gerais pra Angular:
+
+Pra remover o node_modules na pasta do projeto: rm -rf node_modules (edite o package.json e npm install)
+Instalar o Angular Cli: npm install -g @angular/cli (irá instalar a última versão - agora - 8.0.3)
+Instalar o Angular Material: npm i --s @angular/material @angular/cdk @angular/animations
+
+Para criar o projeto: ng new NomeProjeto
+Para criar um componente: ng g c employees/employee --spec=false (spec ignora o arquivo de teste)
+Para criar um componente: ng g c employees/employee --spec=false --module=app.module.ts (se tiver + de 1)
+Para criar um serviço: ng g s shared/employee (um serviço, por exemplo pra consultar dados)
+Para criar um modulo: ng g m material (como um componente pra agrupar os imports de Angular Material)
+------------------------------------------------------------------------------------------------------------
+
+Downgrade e conflitos de versões:
+
+Para fazer DownGrade da versão do Angular por exemplo (da 8 pra 7):
+npm uninstall -g @angular/cli (removeria a 8 por exemplo)
+npm cache clean --force (limpa o cache do NPM)
+npm install -g @angular/cli@7.3.8
+ng --version (vai mostrar a versão)
+
+Do Angular Material e Angular Core:
+npm install -g -save @angular/cli @angular/core @angular/material @angular/cdk @angular/animations
+npm uninstall @angular/core
+npm install -S @angular/core
+npm install -g json-server (caso eu vá usar o servidor temporário)
+
+------------------------------------------------------------------------------------------------------------
+
+Para fazer Update pra versão mais recente do Angular (atualizar o package.json):
+npm install -g @angular/cli 
+ng update @angular/cli @angular/core
+ng update @angular/animations @angular/material
+ng update rxjs
+npm cache clean
+ng update
+ng --version 
+rm -rf node_modules/ && rm -rf package-lock.json && npm install
+
+------------------------------------------------------------------------------------------------------------
+
+
+
+Versões do Angular Cli aqui: https://www.npmjs.com/package/@angular/cli (salvei PDF na Pasta Angular)
+
+Comandos úteis:
+ng serve (roda o server e fica esperando na porta 4200, abrir pelo browser)
+ng serve --o (mesma coisa, porém abre o browser)
+ng build --prod (compila em produção, rodar SEMPRE no final de um projeto, pode dar outros erros)
+
+------------------------------------------------------------------------------------------------------------
+Lint:
+Lint é uma ferramenta que faz um checkup do código, procurando problemas de estrutura, espaços a mais, erros
+de sintaxe, coisas antigas, alinhamento. Rodar sempre no final de um projeto junto com o ng build:
+
+ng lint
+(* nota: esse programa rodará seguindo o tslint.json na pasta do projeto, com aquelas regras)
+
+------------------------------------------------------------------------------------------------------------
+
+Ferramenta de Analise de Código:
+
+npm install -g sloc (ferramenta para contagem de código)
+sloc src/ (na pasta do projeto, irá gerar uma analise de código)

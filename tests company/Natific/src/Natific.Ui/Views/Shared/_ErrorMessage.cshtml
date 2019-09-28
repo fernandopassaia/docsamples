@@ -1,0 +1,8 @@
+﻿@using Natific.Ui.Models
+
+@foreach (var error in (IEnumerable<BaseCommandResult>)TempData["ErrorMessage"])
+{
+    <tr class="row">
+        <td>@error.Message <br /></td> <!-- this is a helper to show the errors in a formated way :) -->
+    </tr>
+}

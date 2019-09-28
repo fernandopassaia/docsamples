@@ -1,0 +1,30 @@
+SQL Server no Linux Ubuntu:
+--------------------------------------------------------------------------------------------------------
+
+SQL Server - instalação:
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2017.list)"
+sudo apt-get update
+sudo apt-get install -y mssql-server
+sudo /opt/mssql/bin/mssql-conf setup
+systemctl status mssql-server --no-pager (checa o serviço)
+
+SQL Command Line-Tools:
+sudo apt-get install mssql-tools unixodbc-dev
+
+Export Key:
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+source ~/.bashrc
+
+Connect over console:
+sqlcmd -S localhost -U SA -P '<YourPassword>'
+
+
+Nota - o comando acima irá instalar o SQL mais Recente, mas hoje (092019) está bugado. Instale essa:
+sudo apt-get install mssql-server=14.0.3192.2-2
+sudo apt-mark hold mssql-server
+
+Exemplo de String de Conexão que vai na Base dentro do Linux:
+Server=localhost;User Id=sa;password=@1234Fd@;Database=AssetsControl;MultipleActiveResultSets=true
+
+--------------------------------------------------------------------------------------------------------

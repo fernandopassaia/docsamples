@@ -1,0 +1,7 @@
+1º Objetivo do sistema. 
+2º Necessidades do Negocio
+3º Diagrama de Atividades
+4º Descrição de Escopo 
+5º Casos de Uso 
+6º Diagrama de Sequencia 
+7º Sistema Rodando. 

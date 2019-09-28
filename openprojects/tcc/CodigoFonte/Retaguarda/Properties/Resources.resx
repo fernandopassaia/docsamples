@@ -1,0 +1,1549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="w56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w56.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnMarkup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnMarkup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pagar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\pagar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SyncServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\SyncServer.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relatCaixa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\relatCaixa3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSangriaCaixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\btnSangriaCaixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CodFabr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CodFabr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAtencaoPqMin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAtencaoPqMin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\clientes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinha_vermelha_compactado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\BolinhasECF\bolinha_vermelha_compactado.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginConhecido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\loginConhecido.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w41.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leitor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoPequenoSuporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\logoPequenoSuporte.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fechtCaix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\fechtCaix.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newecf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newecf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w40.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeaprov" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\nfeaprov.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\calc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolaUsuarioDesconhecido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newLogin\bolaUsuarioDesconhecido.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusOrcamentoInválido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\statusOrcamentoInválido.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini31.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\sup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajudaNFeRejeitada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ajudaNFeRejeitada.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini66.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnultimocad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnultimocad.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini55.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newsuporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\newsuporte.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini38.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\pp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResumoPagar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\ResumoPagar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdicionarProd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdicionarProd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PesquisarProd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PesquisarProd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suporteEspecializado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\suporteEspecializado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notepad2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\Notepad2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w62.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnBackups" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnBackups.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w51.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\kit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\Sair.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ecf_sweda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ECF\ecf_sweda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\filtrar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w10.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnsalvar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\barraPrinc\btnsalvar.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ecf_Bematech" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ECF\ecf_Bematech.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papelParedeNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\papelParedeNew.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printerNFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\printerNFe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="configPDV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\configPDV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="win" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\win.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini54.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini45.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini32.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marketing1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\marketing.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descAcresCaixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\descAcresCaixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w27.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini15.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStatusRuimXizinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnStatusRuimXizinho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSairSistema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnSairSistema.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newRecebCaixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newRecebCaixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoPng2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\logoPng2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suporte_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\suporte_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w46.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w53.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multiLojaGrandeConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\multiLojaGrandeConfig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cli_contatos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\cli_contatos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStatusDesconhecidoInterrogacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnStatusDesconhecidoInterrogacao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAgenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btnAgenda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini59.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mercosul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\mercosul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="novosuporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\novosuporte.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolaUsuarioOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newLogin\bolaUsuarioOK.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consolidado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\consolidado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\Agenda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contasPagar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\contasPagar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeEntrada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\nfeEntrada.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\clie.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini44.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini42.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w36.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdicionarProdAoOrct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdicionarProdAoOrct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moneymenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\moneymenor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAtendimentoOnline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnAtendimentoOnline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relatCaixa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\relatCaixa1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnVendas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnVendas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuarioSemFoto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\usuarioSemFoto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoNovo20102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\logoNovo2010.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fecharVenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\fecharVenda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newbackup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\newbackup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="malaNFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\malaNFe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w57.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniecf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ECF\miniecf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadClientesFim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\cadClientesFim.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnsuporteEspecializado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnsuporteEspecializado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedeLocalizador1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\RedeLocalizador.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeProcura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\nfeProcura.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomeNotaNota1A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\tomeNotaNota1A.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AtivacaoMini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\AtivacaoMini.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w17.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graficoMovimentacaoPosicao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\graficoMovimentacaoPosicao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ajuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\Ajuda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aprovacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Aprovacao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini56.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minusminus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\minusminus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newvendas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\newvendas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plusplus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\plusplus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinha_verde_20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\BolinhasECF\bolinha_verde_20x20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStatusDescMin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnStatusDescMin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comconexao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\comconexao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContasReceber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\ContasReceber.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="security" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnprimeirocad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnprimeirocad.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multiLoja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\multiLoja.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmailsEnviados2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\EmailsEnviados2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusOrcamentoDesconhecido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\statusOrcamentoDesconhecido.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tsSalvar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\tsSalvar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EnvioCotacaoInternet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\EnvioCotacaoInternet.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Produtos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\Produtos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cupomfiscal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\cupomfiscal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super_suporte_final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\super_suporte_final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bancoOff_FD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\bancoOff_FD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\proc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reforco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\reforco.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_ativacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_ativacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginDesconhecido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\loginDesconhecido.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avisoMensalNfe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\avisoMensalNfe.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixaAberto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\caixaAberto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icones.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="melhorando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\melhorando.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postit_vermelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PostIt\postit_vermelho.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini61.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini52.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini43.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini34.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini25.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="categorias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\categorias.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="team" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\team.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\nfe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini39.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\receber.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini28.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w66.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w55.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="importaSefaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\importaSefaz.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w44.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parcelas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\parcelas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusOrcamentoOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\statusOrcamentoOK.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoPng3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\logoPng3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnConectados1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\btnConectados.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinhaSexta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\bolinhaSexta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\eye.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\prod.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postit_Amarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PostIt\postit_Amarelo.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini58.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnVendasWeb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnVendasWeb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini49.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sangria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\sangria.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\Calendario.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoPng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoPng.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\finance.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clienteBloqueado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\clienteBloqueado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VocêSabia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\VocêSabia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini33.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="getOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\getOut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoNovo20101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\logoNovo2010.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Projeto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Agenda\Projeto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Engrenagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Engrenagem.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnContas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnContas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w54.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\miniPDF.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w45.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\contas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desempenho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\desempenho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini50.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinha_vermelha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\BolinhasECF\bolinha_vermelha.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postit_azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PostIt\postit_azul.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suaempresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\suaempresa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinhaQuinta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\bolinhaQuinta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usoChat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usoChat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sair2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\sair2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facaMais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\facaMais.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TEX.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w32.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w37.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini48.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miniprinter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ECF\miniprinter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\estoque.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Produtos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\Produtos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini57.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetirarOrcto2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RetirarOrcto2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telanfe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\telanfe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previsaoFat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\previsaoFat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postit_roxo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PostIt\postit_roxo.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="futuraDataSemiTransparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\futuraDataSemiTransparente.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visualizarNFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\visualizarNFe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResumoBalcao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\ResumoBalcao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini40.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orct_vendacaixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\orct_vendacaixa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnVendasWeb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnVendasWeb2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="impostosCobranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\impostosCobranca.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_Chamado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_Chamado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinhaQuarta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\bolinhaQuarta.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maisV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\maisV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xfmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\xfmail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixaFechado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\caixaFechado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curtir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\curtir.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\report.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedeLocalizador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\RedeLocalizador.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finalizaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Finalizaco.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w31.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Produtos3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\Produtos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="financeiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\financeiro.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPDV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnPDV2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relatCaixa4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\relatCaixa4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w63.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fornecedor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\fornecedor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w60.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Visita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Visita.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comunidades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\comunidades.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manufactures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\manufactures.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\transp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mais2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\mais2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetirarOrcto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RetirarOrcto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini63.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini41.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinha_amarela_10x10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\BolinhasECF\bolinha_amarela_10x10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charlotTheHarlot3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\charlotTheHarlot3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancelado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Cancelado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="certificados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\certificados.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPDV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnPDV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marketing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\marketing.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fornecedor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\fornecedor3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w30.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enviarEmailPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\enviarEmailPDF.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bancoAtivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\bancoAtivo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ativacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ativacao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini65.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="models" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\models.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixaMesinha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\caixaMesinha.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini53.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interrogacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\interrogacao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini35.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w48.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini17.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmFechamentoCaixa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\frmFechamentoCaixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnMKT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnMKT2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newFormOrct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newFormOrct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w61.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w52.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w43.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\book.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w20.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStatusOKMin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnStatusOKMin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\default.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abre_Caixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\abre_Caixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\Caixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_finances" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_finances.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ecf_daruma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ECF\ecf_daruma.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InfoSistema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\InfoSistema.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeFaturar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\nfeFaturar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gif_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\gif_loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\question.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OSPolisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\OSPolisa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinhaTerça" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\bolinhaTerça.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajudaComNFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ajudaComNFe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tecnico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Tecnico.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grafico_pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\grafico_pizza.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mais_funcionalidades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\mais_funcionalidades.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w49.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\estoque.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w14.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w39.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newVendor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newVendor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w28.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postit_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PostIt\postit_verde.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newConfig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contasReceber3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\contasReceber3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinha_verde_30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\BolinhasECF\bolinha_verde_30x30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gestoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\Gestoes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajudaNFe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ajudaNFe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interrogacaoMenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\interrogacaoMenor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_rastrear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\log_rastrear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newBackup2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\newBackup2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini20.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w47.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mini_postit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PostIt\mini_postit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marketingmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\marketingmail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnexcluicad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\barraPrinc\btnexcluicad.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AguaAprov" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\AguaAprov.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoNovo2010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\logoNovo2010.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\Notepad.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\Suporte.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cli_vendedores" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\cli_vendedores.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w33.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="economia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\economia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmFechamentoCaixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\frmFechamentoCaixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relatCaixa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\relatCaixa2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VcSabia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\VcSabia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListaICMS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ListaICMS.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="categorizacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\categorizacao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAbrirCaixa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\btnAbrirCaixa2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="impressora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\impressora.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnOS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SupRemoto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\SupRemoto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContasPagar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\ContasPagar2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="produtoSemFoto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\produtoSemFoto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vendaWeb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vendaWeb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="centralSuporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\centralSuporte.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini37.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_connect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\database_connect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_promo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_promo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Markup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Markup.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnPapelParede" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnPapelParede.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vendedorExclusivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\vendedorExclusivo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w34.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusAmarelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Agenda\statusAmarelo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clienteInativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\clienteInativo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="productfamily" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\productfamily.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DlllsVersoes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\DlllsVersoes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\estoque2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="produtofilho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\produtofilho.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agenda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Agenda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini62.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini51.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="centralAjuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\centralAjuda.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadClientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\cadClientes.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeLista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\nfeLista.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_Chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_Chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PesqDescr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PesqDescr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w58.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pesquisaProdutos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\pesquisaProdutos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="My_Computer_PNG_Icon_by_devinandi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovoSuporte\My_Computer_PNG_Icon_by_devinandi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receber1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\receber.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStatusRuimPeq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnStatusRuimPeq.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResumoCaixa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\ResumoCaixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bancoAtivo_FD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\bancoAtivo_FD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newAtendimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\newAtendimento.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="semconexao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\semconexao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnMovimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnMovimento.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desfrag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\desfrag.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conexaoAtivaPequena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\conexaoAtivaPequena.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="confCaix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa\confCaix.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contasReceb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\contasReceb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Execucao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Execucao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnalterar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnalterar.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini64.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadClientes2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\cadClientes2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newCaixa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newCaixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini46.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super_suporte_maior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\super_suporte_maior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redeAcesso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\redeAcesso.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\newSair.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinha_verde_10x10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\BolinhasECF\bolinha_verde_10x10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeVisualizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\nfeVisualizar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moneyIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\moneyIn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini36.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinhaSabado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\bolinhaSabado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini27.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orct_vendasimples" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\orct_vendasimples.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini14.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fiscal_imglegal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\fiscal_imglegal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w65.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStatusOKBolinha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnStatusOKBolinha.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconeNFeConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\iconeNFeConfig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeaulas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\nfeaulas.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w15.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bancoOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\bancoOff.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\HD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tef.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\mais.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_cloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_cloud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newcaixaestorno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newcaixaestorno.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CertificadoVencendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\CertificadoVencendo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\ped.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnproxcad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\barraPrinc\btnproxcad.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuarioNaoLogado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newLogin\usuarioNaoLogado.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundoInicializacaoMaior2014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\fundoInicializacaoMaior2014.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\nfeOK.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Performance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmCaixa\Performance.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrctOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\OrctOS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_dados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_dados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini47.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="produto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\produto.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="epson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\epson.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundoInicializacao2014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\fundoInicializacao2014.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newMarkup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newMarkup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Impostos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Impostos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postit_rosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\PostIt\postit_rosa.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Consultoria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Consultoria.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_ecf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\refresh_ecf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contasRecebCade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\contasRecebCade.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w64.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w59.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w35.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newlistanfe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\newlistanfe.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btncadant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\barraPrinc\btncadant.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conferencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\conferencia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ecf_epson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\ECF\ecf_epson.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadClientesNFeReceb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\CadClientesNFeReceb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAtencaoPqMin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Inicializacao\btnAtencaoPqMin.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\transport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini60.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCompras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnCompras.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfeSaida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\nfeSaida.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w42.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CodOrig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CodOrig.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini30.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newcaixagerencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newcaixagerencia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CodLoja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CodLoja.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newSup_contract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newSuporte\newSup_contract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Produtos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\Produtos2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conectados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\Conectados.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\prod.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="centroAjuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\telaPrincNFe\centroAjuda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pagar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\pagar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnsuporteEspecializado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\btnsuporteEspecializado2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="importacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\importacao.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nfecanc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\nfecanc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w25.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinha_azul_10x10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\BolinhasECF\bolinha_azul_10x10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\compras.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovaTelaPrincipal2012\caixa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w38.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moneyOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\moneyOut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clienteAtivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\clienteAtivo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnFaleFuturaData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\newTelaPrincipal\btnFaleFuturaData.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitcompo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\kitcompo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_marcaDagua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\logo_marcaDagua.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w50.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bolinhaSegunda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\frmTelaPrincipal\bolinhaSegunda.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wmini10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\NovosWallpapers2014\wmini10.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="est" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\OutlookBar\est.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sup_suportemin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\sup_suportemin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,19 @@
+{
+  "name": "api-nodejs-crud-dom",
+  "version": "1.0.0",
+  "description": "Projeto básico para api, com CRUD em MongoDB e autenticação JWT - Projeto do JP Dom",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.16.3",
+    "mongoose": "*"
+  },
+  "author": "Fernando Passaia de Alencar",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

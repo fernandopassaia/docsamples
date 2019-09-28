@@ -1,0 +1,9 @@
+<!-- como ERA antes <i *ngFor="let r of rates" class="fa fa-star"></i> -->
+
+<!-- Lógica: existe um array de notas, de 1 até 5. Se a nota do 2 por exemplo for maior que 2, ele vai mostrar
+o "star" normal, ou seja, estrela cheia, com nota. Caso contrário, irá mostrar com "o" (estrela vazia)-->
+<i *ngFor="let r of rates" class="fa"
+  [class.fa-star]="r <= rate" [class.fa-star-o]="r > rate"
+  (click)="setRate(r)"
+  (mouseenter)="setTemporaryRate(r)"
+(mouseleave)="clearTemporaryRate()"></i>
