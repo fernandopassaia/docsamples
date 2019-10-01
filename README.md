@@ -11,7 +11,7 @@ LG = Loiane Groner. RG = Renato Groffe. JP = João Paulo (Dom). EW = Erick Wende
 CH = Code Hill College. RB = Rodrigo Branas. NB = Neel Bhatt. TB = Tarso Bessa (Udemy). RC = Ray Carneiro.
 EM = Ebenezer Monney. VF = Valdir Ferreira. BI = Balta.Io (André Baltieri). EP = Eduardo Pires.
 RC = Anderson Rancan. MS = Microsoft. MA = Macoratti. CA = CodAffection. Akveo = ak. Medhat Elmasry = me.
-HB = Hebert Pereira. MP = Manaces Pereira. MM = Mark Macneil.
+HB = Hebert Pereira. MP = Manaces Pereira. MM = Mark Macneil. SB = Scott Brady.
 
 ------------------------------------------------------------------------------------------------------------
 
