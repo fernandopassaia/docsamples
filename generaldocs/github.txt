@@ -12,6 +12,8 @@ git push --all (para subir as alterações no GitHub).
 git push --force (caso ele reclame, você pode forçar o push)
 git pull (para receber o código atualizado)
 
+git mv NomeDaPastaAntiga NovoNome (renomeia pasta, precisam estar todos arquivos fechados)
+
 --------------------------------------------------------------------------------------------------------
 git clone https://github.com/projeto.git
 git clone https://github.com/projeto.git nomeProjetoLocal (eu posso dar outro nome pra ele ter local na minha máquina)
