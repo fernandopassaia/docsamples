@@ -46,7 +46,12 @@ Versões do Angular Cli aqui: https://www.npmjs.com/package/@angular/cli (salvei 
 Comandos úteis:
 ng serve (roda o server e fica esperando na porta 4200, abrir pelo browser)
 ng serve --o (mesma coisa, porém abre o browser)
+
+npm run start (ng serve will use the LOCAL version of server to run - the most UPDATED in your machine.
+Npm RUN Will follow the version of server defined on config).
+
 ng build --prod (compila em produção, rodar SEMPRE no final de um projeto, pode dar outros erros)
+
 
 ------------------------------------------------------------------------------------------------------------
 Lint:
