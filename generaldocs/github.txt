@@ -24,7 +24,7 @@ Caso o pull dê pau por que ele diz que os arquivos locais são diferentes (pra 
 git fetch --all
 git reset --hard origin/master
 git pull origin master
-
+OR: "git branch -d develop" and a "git checkout develop"
 --------------------------------------------------------------------------------------------------------
 
 git diff (mostra diferença entre local e online) (para sair digite "q")
