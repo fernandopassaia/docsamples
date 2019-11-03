@@ -7,6 +7,10 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
     "editor.formatOnSave": true,
-    "window.zoomLevel": -1,
-    "csharp.referencesCodeLens.enabled": false
+    "window.zoomLevel": 0,
+    "csharp.referencesCodeLens.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 12.5
 }
