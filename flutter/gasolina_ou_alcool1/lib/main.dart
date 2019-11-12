@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
       home: HomePage(),
     );
@@ -29,6 +29,33 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+        backgroundColor: Theme.of(context).primaryColor,
+        body: ListView(
+          children: <Widget>[
+            SizedBox(
+              height: 60,
+            ),
+            Image.asset(
+              "assets/images/aog-white.png",
+              height: 80,
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              "Álcool ou Gasolina",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 25,
+                fontFamily: "Big Shoulders Display",
+              ),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+          ],
+        ));
   }
 }
