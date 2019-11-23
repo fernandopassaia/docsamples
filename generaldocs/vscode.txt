@@ -18,7 +18,6 @@ vscode-solution-explorer (Fernando Escolar)
 (nota 2: O excesso de plugins faz com que o Intellisense e o Auto-Import de Namespaces pare de funcionar!)
 ------------------------------------------------------------------------------------------------------------
 
-IDE Config File (settings.json):
 {
     "workbench.colorTheme": "One Monokai",
     "workbench.iconTheme": "vscode-icons",
@@ -30,9 +29,9 @@ IDE Config File (settings.json):
     "editor.formatOnSave": true,
     "window.zoomLevel": 0,
     "csharp.referencesCodeLens.enabled": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace"
+    "editor.fontFamily": "'Cascadia Code'",
+    "dart.flutterSdkPath": "/home/fernandopassaia/Android/flutter",
+    "window.titleBarStyle": "custom"
 }
 
 ------------------------------------------------------------------------------------------------------------
