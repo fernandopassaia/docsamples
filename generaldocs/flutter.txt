@@ -1,0 +1,19 @@
+Anotações Gerais pra Flutter:
+
+Para Instalar no Linux, é preciso adicionar uma linha ao final do bash. Então na raíz do Home/FernandoPassaia:
+
+sudo gedit .bashrc
+
+E no final do Arquivo Cole:
+#Fernando - Adding Flutter to Common-Bash
+#Fernando - Adding Path to FireFox Developer
+export PATH=/opt/firefox/firefox:$PATH:/home/fernandopassaia/Android/flutter/bin
+------------------------------------------------------------------------------------------------------------
+
+To Upgrade Flutter run on Bin Folder:
+./bin/flutter update-packages --force-upgrade
+
+Commandos Básicos:
+flutter packages get (é como um npm install)
+flutter doctor (roda o verificador)
+flutter run (roda o aplicativo)
