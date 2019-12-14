@@ -1,0 +1,30 @@
+Starting the Course Week-OmniStack 102019 Build an Airbnb Clone to Locate Spaces for Programmers.
+This Course will be made using JavaScript - NodeJs on BackEnd, React + ReactNative (Front + Mobile).
+------------------------------------------------------------------------------------------------------------
+Servers:
+
+To RUN a specific Server or File: node src/server.js (this do not REFRESH automatically).
+
+Automatically Refresh:
+yarn add nodemon -D (-D tells the project that the dependency will be used only on DEV envoirment)
+
+On Package.json after License, add the lines:
+"scripts": {
+    "dev": "nodemon src/server.js"
+  },
+
+Then run "yarn dev" (this server will listen to port an any update will refresh the browser).
+
+------------------------------------------------------------------------------------------------------------
+To Create the Node BackEnd Project:
+To Create a New Project (could be start to node): yarn init -y (enter folder + Code .)
+Adding dependencys:
+
+To acelerate the construction of our app: yarn add express (npm install express also works).
+
+
+
+
+
+To Create a Project into a folder: yarn create react-app frontend (yarn)
+To Create a Project into a folder: npx create-react-app frontend (npm)
