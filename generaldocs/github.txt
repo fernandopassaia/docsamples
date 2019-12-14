@@ -1,6 +1,6 @@
 Principais comandos do GitHub :
 
-git config -global user.name "fernandopassaia"
+git config --global user.name "fernandopassaia"
 git config --global user.email "fernandopassaia@futuradata.com.br" (diz quem você é pro github)
 
 git init c:/PcDevGit (iniciar novo repositório)
