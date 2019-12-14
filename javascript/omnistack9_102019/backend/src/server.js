@@ -1,7 +1,13 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const routes = require('./routes');
 
 const app = express();
+
+mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-jhuln.mongodb.net/semana09?retryWrites=true&w=majority', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
 
 // req.query = Acessar query params (para filtros - get)
 // req.params = Acessar route params (para edição, delete)
