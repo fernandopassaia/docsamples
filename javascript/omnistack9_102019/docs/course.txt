@@ -1,5 +1,6 @@
-Starting the Course Week-OmniStack 102019 Build an Airbnb Clone to Locate Spaces for Programmers.
-This Course will be made using JavaScript - NodeJs on BackEnd, React + ReactNative (Front + Mobile).
+Starting the Course Week-OmniStack 102019 Build an Airbnb Clone (aircnc - coofee cooperating or computing)
+to Locate Spaces for Programmers. This Course will be made using JavaScript - NodeJs on BackEnd, React +
+ReactNative (Front + Mobile).
 ------------------------------------------------------------------------------------------------------------
 Servers - To RUN a specific Server or File: node src/server.js (this do not REFRESH automatically).
 
@@ -23,6 +24,8 @@ To Create a Project into a folder: npx create-react-app frontend (npm)
 -----------------------------------------------------------------------------------------------------------
 MongoDB:
 We will use MONGODB to Speed-Up our Development. Mongo Atlas is a Free-Web-DataBase until 500MB.
+
+yarn add mongoose
 
 ConnectionString:
 mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=true&w=majority
