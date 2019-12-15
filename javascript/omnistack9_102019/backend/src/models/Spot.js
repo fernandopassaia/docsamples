@@ -13,4 +13,4 @@ const SpotSchema = new mongoose.Schema({
     }
 });
 
-modules.exports = mongoose.model('Spot', SpotSchema);
+module.exports = mongoose.model('Spot', SpotSchema);
