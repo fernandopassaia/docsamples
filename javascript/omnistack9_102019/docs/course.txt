@@ -21,6 +21,7 @@ Adding dependencys:
 To acelerate the construction of our app: yarn add express (npm install express also works).
 To Create a Project into a folder: yarn create react-app frontend (yarn)
 To Create a Project into a folder: npx create-react-app frontend (npm)
+To Send FILES (Multipart form): yarn add multer
 -----------------------------------------------------------------------------------------------------------
 MongoDB:
 We will use MONGODB to Speed-Up our Development. Mongo Atlas is a Free-Web-DataBase until 500MB.
