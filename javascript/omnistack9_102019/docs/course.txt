@@ -30,3 +30,7 @@ yarn add mongoose
 
 ConnectionString:
 mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=true&w=majority
+-----------------------------------------------------------------------------------------------------------
+
+React Web:
+To create a New Project: yarn create react-app frontend (ou no npm: npx create-react-app frontend)
