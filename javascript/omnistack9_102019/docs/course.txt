@@ -34,3 +34,4 @@ mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=t
 
 React Web:
 To create a New Project: yarn create react-app frontend (ou no npm: npx create-react-app frontend)
+Tool to Create API Calls on ReactWeb: yarn add axios
