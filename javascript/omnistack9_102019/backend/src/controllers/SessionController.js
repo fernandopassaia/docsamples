@@ -11,7 +11,6 @@
 const User = require('../models/User')
 
 module.exports = {
-
     async store(req, res) {
         //const email = req.body.email;
         const { email } = req.body; // nota: esse é um recursos chamado "desestruturação", o Javascript entenderá que deve procurar "email" dentro do body
@@ -25,5 +24,4 @@ module.exports = {
         }
         return res.json(user);
     }
-
 }

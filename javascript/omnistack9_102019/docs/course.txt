@@ -22,6 +22,7 @@ To acelerate the construction of our app: yarn add express (npm install express 
 To Create a Project into a folder: yarn create react-app frontend (yarn)
 To Create a Project into a folder: npx create-react-app frontend (npm)
 To Send FILES (Multipart form): yarn add multer
+To Enable and Configure CORS on Backend: yarn add cors
 -----------------------------------------------------------------------------------------------------------
 MongoDB:
 We will use MONGODB to Speed-Up our Development. Mongo Atlas is a Free-Web-DataBase until 500MB.
@@ -34,4 +35,5 @@ mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=t
 
 React Web:
 To create a New Project: yarn create react-app frontend (ou no npm: npx create-react-app frontend)
+To RUN the Project: yarn start
 Tool to Create API Calls on ReactWeb: yarn add axios

@@ -5,7 +5,6 @@ module.exports = {
     // retorna os spots baseados em uma tecnologia específica
     async index(req, res) {
         const { tech } = req.query; //retiro a query da query
-
         // mesmo tech sendo uma string e techs um array, o mongo entende a query
         const spots = await Spot.find({ techs: tech });
         return res.json(spots);

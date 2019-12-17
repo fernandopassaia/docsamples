@@ -8,12 +8,17 @@ import logo from './assets/logo.svg';
 
 function App() {
   //aqui é como se fosse o "FORM" do Angular - useState irá setar e getar o valor da variável
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState(''); //O estado do input email será sempre refletido aqui
 
   //sim, no JS é possível escrever uma função dentro de outra função
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault();
-    console.log(email);
+    //console.log(email);
+    const response = await api.post('/sessions', {
+      //email : email - NOTA: Sempre que a chave for o mesmo que o valor, não preciso repetir
+      email
+    });
+    console.log(response);
   }
 
   return (
