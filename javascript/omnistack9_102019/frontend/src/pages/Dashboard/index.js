@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
-
+import './styles.css';
 export default function Dashboard() {
+
+    const [spots, setSpots] = useState([]); //como spots é um array no banco, eu inicializo ele com vazio
 
     //UseEffect é usado pra executar uma função assim que o usuário acessar essa tela (seria como o ngOnInit)
     //UseEffect é uma função - recebe dois parametros, uma função (que escrevi com ArrowFunction) e o segundo é um array de dependências
@@ -18,12 +20,23 @@ export default function Dashboard() {
             const response = await api.get('/dashboard', {
                 headers: { user_id }
             });
-
+            setSpots(response.data); //jogo os spots pra minha const
             console.log(response.data);
         }
-
         loadSpots();
-    }, [])
+    }, []);
 
-    return <div />
+    return (
+        <>
+            <ul className="spot-list">
+                {spots.map(spot => ( //vou percorrer minha lista de spots e desenhar na tela
+                    <li key={spot._id}>
+                        <header style={{ backgroundImage: `url(${spot.thumbnail_url})` }} />
+                        <strong>{spot.company}</strong>
+                        <span>{spot.price ? `R$${spot.price}/dia` : 'GRATUITO'}</span>
+                    </li>
+                ))}
+            </ul>
+        </>
+    )
 }

@@ -27,7 +27,7 @@ module.exports = {
         //envio o SPOT pro banco de dados...
         const spot = await Spot.create({
             user: user_id,
-            thumbail: filename,
+            thumbnail: filename,
             company,
             //percorro o que vier na string separando por , (pra formar um array) e tiro os espaços de um por um com trim
             techs: techs.split(',').map(tech => tech.trim()),

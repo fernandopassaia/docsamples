@@ -37,3 +37,9 @@ To create a New Project: yarn create react-app frontend (ou no npm: npx create-r
 To RUN the Project: yarn start
 PAckage to Make API Calls: yarn add axios
 Package to Navigate (routes): yarn add react-router-dom
+-----------------------------------------------------------------------------------------------------------
+Dados de Teste: fernandopassaia@outlook.com - 5dfa4a26edfc383851a1fcd1
+Company1 - 10 - Angular, React - 5dfa4bbeedfc383851a1fcd2
+Company2 - 20 - C#, NodeJs - 5dfa4bfdedfc383851a1fcd3
+Company3 - 30 - ReactNative, Flutter - 5dfa4c3fedfc383851a1fcd4
+Company4 - Gratis - SQLServer, PostgreSQL - 5dfa4c99edfc383851a1fcd5
