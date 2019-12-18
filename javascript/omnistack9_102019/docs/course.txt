@@ -32,8 +32,8 @@ yarn add mongoose
 ConnectionString:
 mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=true&w=majority
 -----------------------------------------------------------------------------------------------------------
-
 React Web:
 To create a New Project: yarn create react-app frontend (ou no npm: npx create-react-app frontend)
 To RUN the Project: yarn start
-Tool to Create API Calls on ReactWeb: yarn add axios
+PAckage to Make API Calls: yarn add axios
+Package to Navigate (routes): yarn add react-router-dom
