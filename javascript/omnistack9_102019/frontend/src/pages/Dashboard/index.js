@@ -20,8 +20,7 @@ export default function Dashboard() {
             const response = await api.get('/dashboard', {
                 headers: { user_id }
             });
-            setSpots(response.data); //jogo os spots pra minha const
-            console.log(response.data);
+            setSpots(response.data); //jogo os spots pra minha const            
         }
         loadSpots();
     }, []);
