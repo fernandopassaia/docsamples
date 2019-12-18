@@ -17,7 +17,7 @@ export default function New({ history }) {
     }, [thumbnail])
 
     async function handleSubmit(event) {
-        event.preventDefault();
+        event.preventDefault(); //permite que seja feito o redirect ao invés de ficar na mesma pag
         //como meu formato não é JSON mas MultipartFORM, eu preciso criar ele
         const data = new FormData();
         const user_id = localStorage.getItem('user');
