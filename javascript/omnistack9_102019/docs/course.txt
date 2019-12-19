@@ -55,7 +55,11 @@ Passo 1 - instalar no computador: npm install -g expo-cli
 Passo 2 - Procure na sua AppLoja do Smartphone e instale.
 
 Reinicie o terminal. Para criar um projeto: expo init mobile (escolha template blank).
+Para iniciar o Projeto: yart start
+Nota: Pra restaurar as dependências/pacotes (node_modules) basta digitar "yarn" na pasta.
 Pra ver o ReactMobile rodando e saber como configurar, veja as duas primeiras Ibagens na pasta "mobile".
 
 Pacotes:
-Pra roteamento: yarn add react-navigation
+Pra roteamento: yarn add react-navigation 
+Depois: expo install react-native-gesture-handler react-native-reanimated
+(Nota, eu tive que criar um projeto do zero e instalar essas duas bibliotecas, deu algum pau...)
