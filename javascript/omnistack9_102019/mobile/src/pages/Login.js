@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react'; //funciona do mesmo jeito que no ReactWeb
 import { View, KeyboardAvoidingView, Platform, Image, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
+import api from '../services/api';
 import logo from '../assets/logo.png';
 
 // Existem duas maneiras de carregar ibagens:
@@ -10,8 +11,21 @@ import logo from '../assets/logo.png';
 //AutoCapitalize = words irá deixar cada letra inicial maíusculo. AutoCorrect desabilita correção automática (útil no campo email)
 
 //KeyboardAvoidingView joga todo o layout pra CIMA quando você clica num campo e o teclado sobe (no IOS isso não é default, no Android sim)
+//onChangeText={setEmail} é a mesma coisa que escrever onChangeText={text => setEmail(text)}
 
 export default function Login() {
+    const [email, setEmail] = useState('');
+    const [techs, setTechs] = useState('');
+    async function handleSubmit() {
+        // preciso pegar o email e as tecnologias
+        const response = await api.post('/sessions', {
+            email //envio o e-mail do usuário no corpo
+        })
+
+        const { _id } = response.data; //se der certo pego o id do usuário
+        console.log(_id); //irá printar o ID de usuário no console
+    }
+
     return (
         <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior="padding" style={styles.container}>
             <Image source={logo} />
@@ -25,6 +39,8 @@ export default function Login() {
                     keyboardType="email-address"
                     autoCapitalize="none"
                     autoCorrect={false}
+                    value={email}
+                    onChangeText={setEmail}
                 />
 
                 <Text style={styles.label}>TECNOLOGIAS *</Text>
@@ -34,9 +50,11 @@ export default function Login() {
                     placeholderTextColor="#999"
                     autoCapitalize="words"
                     autoCorrect={false}
+                    value={techs}
+                    onChangeText={setTechs}
                 />
 
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity onPress={handleSubmit} style={styles.button}>
                     <Text style={styles.buttonText}>Encontrar spots</Text>
                 </TouchableOpacity>
             </View>
