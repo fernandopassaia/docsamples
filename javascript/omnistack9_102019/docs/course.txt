@@ -32,6 +32,7 @@ yarn add mongoose
 ConnectionString:
 mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=true&w=majority
 -----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 React Web:
 To create a New Project: yarn create react-app frontend (ou no npm: npx create-react-app frontend)
 To RUN the Project: yarn start
@@ -43,3 +44,18 @@ Company1 - 10 - Angular, React - 5dfa4bbeedfc383851a1fcd2
 Company2 - 20 - C#, NodeJs - 5dfa4bfdedfc383851a1fcd3
 Company3 - 30 - ReactNative, Flutter - 5dfa4c3fedfc383851a1fcd4
 Company4 - Gratis - SQLServer, PostgreSQL - 5dfa4c99edfc383851a1fcd5
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+React Mobile:
+Nós usaremos "Expo" pra criar o aplicativo Mobile, pois com ele não é necessário ter todas as dependências
+de JavaScript e ObjectiveC em nossa máquina - e isso acelera DEMAIS o desenvolvimento. Ele encapsula o seu
+código Java e ObjectiveC em um aplicativo que você pode instalar em seu Smartphone.
+
+Passo 1 - instalar no computador: npm install -g expo-cli
+Passo 2 - Procure na sua AppLoja do Smartphone e instale.
+
+Reinicie o terminal. Para criar um projeto: expo init mobile (escolha template blank).
+Pra ver o ReactMobile rodando e saber como configurar, veja as duas primeiras Ibagens na pasta "mobile".
+
+Pacotes:
+Pra roteamento: yarn add react-navigation
