@@ -1,5 +1,5 @@
-import React, { useState } from 'react'; //funciona do mesmo jeito que no ReactWeb
-import { View, KeyboardAvoidingView, Platform, Image, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
+import React, { useState, useEffect } from 'react'; //funciona do mesmo jeito que no ReactWeb
+import { View, KeyboardAvoidingView, AsyncStorage, Platform, Image, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
 import api from '../services/api';
 import logo from '../assets/logo.png';
 
@@ -13,9 +13,22 @@ import logo from '../assets/logo.png';
 //KeyboardAvoidingView joga todo o layout pra CIMA quando você clica num campo e o teclado sobe (no IOS isso não é default, no Android sim)
 //onChangeText={setEmail} é a mesma coisa que escrever onChangeText={text => setEmail(text)}
 
-export default function Login() {
+//navigation faz a mesma coisa que o history no ReactWeb - navega o usuário pra outra tela
+export default function Login({ navigation }) {
     const [email, setEmail] = useState('');
     const [techs, setTechs] = useState('');
+
+    // usarei o useEffect() pra executar uma ação assim que o usuário chegar na tela, ou quando algum estado mudar (doc melhor no ReactWeb)
+    useEffect(() => {
+        //nota: eu irei verificar se o cara já tem um usuário LOGADO no APP, se tiver, mandarei ele direto pro List
+        AsyncStorage.getItem('user').then(user => {
+            if (user) {
+                navigation.navigate('List');
+            }
+        })
+    }, []);
+
+
     async function handleSubmit() {
         // preciso pegar o email e as tecnologias
         const response = await api.post('/sessions', {
@@ -23,7 +36,13 @@ export default function Login() {
         })
 
         const { _id } = response.data; //se der certo pego o id do usuário
-        console.log(_id); //irá printar o ID de usuário no console
+        //console.log(_id); //irá printar o ID de usuário no console
+
+        // Salvo no localStorage o ID do usuário e as tecnologias que ele tem interesse
+        await AsyncStorage.setItem('user', _id);
+        await AsyncStorage.setItem('techs', techs);
+
+        navigation.navigate('List');
     }
 
     return (
