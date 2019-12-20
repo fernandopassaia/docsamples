@@ -12,6 +12,8 @@ export default function List() {
     // useEffect(() = > {}, []) estrutura básica do useEffect, tem uma função (o que será feito) e um array de variáveis
     // se estiver vazio, ele só executará uma vez ao abrir a tela. Se tiver algo, ele iŕa re-executar caso a variável se atualize.
 
+    //Poderia passar a propriedade assim: <SpotList tech="React" /> (mas fiz no FOR)
+
     useEffect(() => {
         AsyncStorage.getItem('techs').then(storagedTechs => {
             const techsArray = storagedTechs.split(',').map(tech => tech.trim());
@@ -22,7 +24,11 @@ export default function List() {
     return (
         <SafeAreaView>
             <Image style={styles.logo} source={logo} />
-            <SpotList />
+            {
+                //vou fazer um FOR dentro do techs e passar um por um pro component SpotList
+                techs.map(tech => <SpotList key={tech} tech={tech} />)
+            }
+
         </SafeAreaView>
     )
 }
