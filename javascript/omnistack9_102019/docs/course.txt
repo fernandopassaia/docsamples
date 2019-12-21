@@ -15,6 +15,8 @@ On Package.json after License, add the lines:
 Then run "yarn dev" (this server will listen to port an any update will refresh the browser).
 ------------------------------------------------------------------------------------------------------------
 To Create the Node BackEnd Project:
+
+
 To Create a New Project (could be start to node): yarn init -y (enter folder + Code .)
 
 Adding dependencys:
@@ -63,3 +65,12 @@ Pacotes:
 Pra roteamento: yarn add react-navigation 
 Depois: expo install react-native-gesture-handler react-native-reanimated
 (Nota, eu tive que criar um projeto do zero e instalar essas duas bibliotecas, deu algum pau...)
+
+Nota - para LIMPAR todo o CACHE do Projeto, você pode rodar:
+ 1. Clear watchman watches: watchman watch-del-all
+ 2. Delete node_modules: rm -rf node_modules and run yarn install
+ 3. Reset Metro's cache: yarn start --reset-cache
+ 4. yarn cache clean
+ 5. Remove the cache: rm -rf /tmp/metro-*
+
+Isso foi necessário durante o desenvolvimento do lance de IMAGENS, quando as imagens não carregavam!

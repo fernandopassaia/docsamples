@@ -19,7 +19,10 @@ const SpotSchema = new mongoose.Schema({
 
 //isso irá criar um campo VIRTUAL, ele não será salvo no BD, mas retornará com a imagem
 SpotSchema.virtual('thumbnail_url').get(function () {
-    return `http://localhost:3333/files/${this.thumbnail}` //nota: haverá uma ROTA pra retornar essa imagem
+    return `http://10.0.2.2:3333/files/${this.thumbnail}` //nota: haverá uma ROTA pra retornar essa imagem
+
+    //NOTA: HAVIA UM BUG CRÍTICO AQUI POR QUE O ANDROID POR QUESTÕES DE SEGURANÇA NÃO LÊ DADOS DO LOCALHOST!
+    //return `http://localhost:3333/files/${this.thumbnail}` //nota: haverá uma ROTA pra retornar essa imagem
 });
 
 module.exports = mongoose.model('Spot', SpotSchema);

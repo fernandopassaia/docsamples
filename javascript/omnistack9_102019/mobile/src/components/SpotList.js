@@ -1,6 +1,10 @@
 // CRIEI UM COMPONENTE SEPARADO PARA AQUELA LISTA DE SPOTS QUE O USUÁRIO PODE SOLICITAR A RESERVA
 // COMO O COMPONENTE IRÁ SE REPETIR NA TELA, EU VOU TER ELE EM UM COMPONENTE SEPARADO.
 
+// NOTA: No vídeo do Diego a linha de imagem estava assim: <Image style={styles.thumbnail} source={{ uri: item.thumbnail_url }} />
+// Não funcionava. Tive que substituir com o lance do Require.
+
+
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, FlatList, Image, TouchableOpacity } from 'react-native';
 import api from '../services/api';
@@ -17,7 +21,6 @@ export default function SpotList({ tech }) {
                 params: { tech }
             })
             setSpots(response.data);
-            console.log(response.data);
         }
         loadSpots(); //declarei uma função dentro do useEffect e agora chamo ela
         //NOTA: A Api será chamada pra cada technologia que eu tiver, pra desenhar cada componente
@@ -75,7 +78,6 @@ const styles = StyleSheet.create({
         width: 200,
         height: 120,
         resizeMode: 'cover',
-        alignSelf: 'center',
         borderRadius: 2,
     },
 
