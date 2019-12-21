@@ -1,16 +1,15 @@
 // CRIEI UM COMPONENTE SEPARADO PARA AQUELA LISTA DE SPOTS QUE O USUÁRIO PODE SOLICITAR A RESERVA
 // COMO O COMPONENTE IRÁ SE REPETIR NA TELA, EU VOU TER ELE EM UM COMPONENTE SEPARADO.
 
-// NOTA: No vídeo do Diego a linha de imagem estava assim: <Image style={styles.thumbnail} source={{ uri: item.thumbnail_url }} />
-// Não funcionava. Tive que substituir com o lance do Require.
-
-
 import React, { useState, useEffect } from 'react';
+import { withNavigation } from 'react-navigation';
 import { View, Text, StyleSheet, FlatList, Image, TouchableOpacity } from 'react-native';
 import api from '../services/api';
 
 // Nota: Props conterá uma referência para "tech" que é uma variável que estou passando da List.js
-export default function SpotList({ tech }) {
+// Nota2: Como o SpotList não faz parte da minha rota, não consigo acessar o navigation por padrão (pra dar navigate)
+// Então eu tenho que importar o withNavigation, e lá no fim do arquivo exportar minha classe e ai beleza!
+function SpotList({ tech, navigation }) {
     //crio uma variável pra ARMAZENAR os Spots que depois usarei pra desenhar a tela
     const [spots, setSpots] = useState([]);
 
@@ -26,6 +25,11 @@ export default function SpotList({ tech }) {
         //NOTA: A Api será chamada pra cada technologia que eu tiver, pra desenhar cada componente
     }, []);
 
+    //função pra navegar o usuário pra tela de reserva quando ele clicar num botão
+    function handleNavigate(id) {
+        navigation.navigate('Book', { id });
+    }
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Empresas que usam <Text style={styles.bold}>{tech}</Text></Text>
@@ -40,7 +44,7 @@ export default function SpotList({ tech }) {
                         <Image style={styles.thumbnail} source={{ uri: item.thumbnail_url }} />
                         <Text style={styles.company}>{item.company}</Text>
                         <Text style={styles.price}>{item.price ? `R$${item.price}/dia` : 'GRATUITO'}</Text>
-                        <TouchableOpacity onPress={() => { }} style={styles.button}>
+                        <TouchableOpacity onPress={() => handleNavigate(item._id)} style={styles.button}>
                             <Text style={styles.buttonText}>Solicitar Reserva</Text>
                         </TouchableOpacity>
                     </View>
@@ -49,7 +53,6 @@ export default function SpotList({ tech }) {
         </View>
     )
 }
-
 const styles = StyleSheet.create({
     container: {
         marginTop: 30,
@@ -109,3 +112,5 @@ const styles = StyleSheet.create({
         fontSize: 15,
     },
 });
+
+export default withNavigation(SpotList);

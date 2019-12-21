@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, AsyncStorage, StyleSheet, Image } from 'react-native';
+import { SafeAreaView, ScrollView, AsyncStorage, StyleSheet, Image } from 'react-native';
 import logo from '../assets/logo.png';
-import { SafeAreaView } from 'react-navigation';
+//import { SafeAreaView } from 'react-navigation';
 import SpotList from '../components/SpotList';
 
 export default function List() {
@@ -11,7 +11,6 @@ export default function List() {
     // o map irá pegar cada item desse array e irá tirar o espaço após a virgula
     // useEffect(() = > {}, []) estrutura básica do useEffect, tem uma função (o que será feito) e um array de variáveis
     // se estiver vazio, ele só executará uma vez ao abrir a tela. Se tiver algo, ele iŕa re-executar caso a variável se atualize.
-
     //Poderia passar a propriedade assim: <SpotList tech="React" /> (mas fiz no FOR)
 
     useEffect(() => {
@@ -22,13 +21,11 @@ export default function List() {
     }, []);
 
     return (
-        <SafeAreaView>
+        <SafeAreaView style={styles.container}>
             <Image style={styles.logo} source={logo} />
-            {
-                //vou fazer um FOR dentro do techs e passar um por um pro component SpotList
-                techs.map(tech => <SpotList key={tech} tech={tech} />)
-            }
-
+            <ScrollView>
+                {techs.map(tech => <SpotList key={tech} tech={tech} />)}
+            </ScrollView>
         </SafeAreaView>
     )
 }
