@@ -11,6 +11,12 @@
     "csharp.referencesCodeLens.enabled": false,
     "vsicons.dontShowNewVersionMessage": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.fontSize": 12.5
+    "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
+    "editor.fontSize": 13,
+    "eemet.syntaxProfiles": {
+        "javascript": "jsx",
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    }
 }
