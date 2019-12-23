@@ -38,7 +38,7 @@ mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=t
 React Web:
 To create a New Project: yarn create react-app frontend (ou no npm: npx create-react-app frontend)
 To RUN the Project: yarn start
-PAckage to Make API Calls: yarn add axios
+Package to Make API Calls: yarn add axios
 Package to Navigate (routes): yarn add react-router-dom
 -----------------------------------------------------------------------------------------------------------
 Dados de Teste: fernandopassaia@outlook.com - 5dfa4a26edfc383851a1fcd1
@@ -62,6 +62,7 @@ Nota: Pra restaurar as dependências/pacotes (node_modules) basta digitar "yarn" 
 Pra ver o ReactMobile rodando e saber como configurar, veja as duas primeiras Ibagens na pasta "mobile".
 
 Pacotes:
+Package to Make API Calls: yarn add axios
 Pra roteamento: yarn add react-navigation 
 Depois: expo install react-native-gesture-handler react-native-reanimated
 (Nota, eu tive que criar um projeto do zero e instalar essas duas bibliotecas, deu algum pau...)
