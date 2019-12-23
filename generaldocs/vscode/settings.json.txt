@@ -12,11 +12,13 @@
     "vsicons.dontShowNewVersionMessage": true,
     "editor.fontLigatures": true,
     "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
-    "editor.fontSize": 13,
+    "editor.fontSize": 12.5,
     "eemet.syntaxProfiles": {
         "javascript": "jsx",
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
-    }
+    },
+    "powermode.enabled": true,
+    "powermode.presets": "flames"
 }
