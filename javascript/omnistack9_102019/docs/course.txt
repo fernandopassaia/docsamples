@@ -36,6 +36,7 @@ mongodb+srv://omnistack:<password>@cluster0-jhuln.mongodb.net/test?retryWrites=t
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 React Web:
+To Install react-native-cli: npm install -g react-native-cli
 To create a New Project: yarn create react-app frontend (ou no npm: npx create-react-app frontend)
 To RUN the Project: yarn start
 Package to Make API Calls: yarn add axios
@@ -49,6 +50,11 @@ Company4 - Gratis - SQLServer, PostgreSQL - 5dfa4c99edfc383851a1fcd5
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 React Mobile:
+To Install react-native-cli: npm install -g react-native-cli
+NOTA: No Windows o ReactNative só funciona com Node10. Então remova o Node pelo Painel de Controle e:
+choco install -y nodejs.install --version 10.16.3 --force
+
+
 Nós usaremos "Expo" pra criar o aplicativo Mobile, pois com ele não é necessário ter todas as dependências
 de JavaScript e ObjectiveC em nossa máquina - e isso acelera DEMAIS o desenvolvimento. Ele encapsula o seu
 código Java e ObjectiveC em um aplicativo que você pode instalar em seu Smartphone.
