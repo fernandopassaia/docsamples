@@ -67,6 +67,11 @@ Para iniciar o Projeto: yart start
 Nota: Pra restaurar as dependências/pacotes (node_modules) basta digitar "yarn" na pasta.
 Pra ver o ReactMobile rodando e saber como configurar, veja as duas primeiras Ibagens na pasta "mobile".
 
+Como criar o projeto sem usar o EXPO - no modo Padrão do REACT:
+react-native init ProjectName
+cd ProjectName
+react-native run-android
+
 Pacotes:
 Package to Make API Calls: yarn add axios
 Pra roteamento: yarn add react-navigation 
