@@ -1,4 +1,10 @@
+
+No arquivo .bashrc (na pasta fernandopassaia):
 export PATH=/opt/firefox/firefox:$PATH:/home/fernandopassaia/Android/Sdk/platform-tools:$PATH:/home/fernandopassaia/Android/sdk:$PATH:/home/fernandopassaia/Android/Sdk/emulator:$PATH:/home/fernandopassaia/Android/Sdk/tools:$PATH:/home/fernandopassaia/Android/Sdk/tools/bin:$PATH:/home/fernandopassaia/Android/Sdk/platform-tools
+
+No Arquivo environment:
+sudo nano /etc/environment
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/"
 
 
 (NOTA FERNANDO: Na pasta Javascript > OmniStack tem diversas outras docs de DEV e Ambiente).
