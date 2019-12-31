@@ -1,0 +1,4 @@
+export PATH=/opt/firefox/firefox:$PATH:/home/fernandopassaia/Android/Sdk/platform-tools:$PATH:/home/fernandopassaia/Android/sdk:$PATH:/home/fernandopassaia/Android/Sdk/emulator:$PATH:/home/fernandopassaia/Android/Sdk/tools:$PATH:/home/fernandopassaia/Android/Sdk/tools/bin:$PATH:/home/fernandopassaia/Android/Sdk/platform-tools
+
+
+(NOTA FERNANDO: Na pasta Javascript > OmniStack tem diversas outras docs de DEV e Ambiente).
