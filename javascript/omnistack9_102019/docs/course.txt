@@ -86,3 +86,56 @@ Nota - para LIMPAR todo o CACHE do Projeto, você pode rodar:
  5. Remove the cache: rm -rf /tmp/metro-*
 
 Isso foi necessário durante o desenvolvimento do lance de IMAGENS, quando as imagens não carregavam!
+
+------------------------------------------------------------------------------------------------------------
+
+Como CLONAR um repositório ZERADO e recriar toda pasta Mobile e reconfigurar todo ambiente:
+
+Nota Fernando: Na Pasta "DocsSamples > React > Docs" tem várias IMAGENS que ajudarão na configuração.
+
+* Para Configurar o Ambiente no Linux:
+No arquivo .bashrc (na pasta fernandopassaia):
+export PATH=/opt/firefox/firefox:$PATH:/home/fernandopassaia/Android/Sdk/platform-tools:$PATH:/home/fernandopassaia/Android/sdk:$PATH:/home/fernandopassaia/Android/Sdk/emulator:$PATH:/home/fernandopassaia/Android/Sdk/tools:$PATH:/home/fernandopassaia/Android/Sdk/tools/bin:$PATH:/home/fernandopassaia/Android/Sdk/platform-tools
+
+No Arquivo environment:
+sudo nano /etc/environment
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/"
+
+* Para Configurar no Windows: Veja a imagem respectiva das variáveis de ambiente.
+
+
+* Para configurar o Ambiente do React em Si:
+(1) Node versão 10:
+sudo apt update
+sudo apt install build-essential apt-transport-https lsb-release ca-certificates curl
+curl -sL https://deb.nodesource.com/setup_10.x | bash -
+sudo apt install nodejs
+(2) sudo npm install -g jetifier
+(3) sudo npm install -g react-native-cli
+(4) npm install -g expo-cli
+
+Para instalar os Pacotes (que eu uso - nota: final de 2019, até agora):
+
+(1) npm install axios
+(2) npm install react-navigation
+(3) npm install react-native-gesture-handler
+(4) npm install react-native-reanimated
+(5) npm install --save react-native-device-info
+
+* Para clonar um repositório zerado e restaurar o Projeto e fazer rodar:
+
+(1) Clone o repositório (nesse caso assetscontrol)
+(2) Entre na pasta Mobile e remova os arquivos *.lock caso existam.
+(3) sudo npm install
+(4) Rode o adb devices e veja se o emulador está ativo (não unauthorized)
+(5) Recomendo usar o Emulador 27 do Oreo 8.1: Está dando menos bug, e não fica tamanho gigantesco!!!
+(6) Se o emulador estiver unauthorized, habilite o Modo Desenvolvedor (About > Build Number 5x)
+(7) Caso dê erro no ./gradlew EACCESS rode "chmod 555 android/gradlew"
+(8) Abra com o CODE e verifique se na pasta Android existe o "local.properties". Caso não, crie e:
+sdk.dir = /home/fernandopassaia/Android/Sdk
+(9) Para limpar e reinstalar tudo: rm -rf node_modules && npm install && react-native run-android
+(10) Em uma ABA rode o npm start e deixe rodando (servidor JS) (nota: os LOGS ficarão aqui)
+(11) Na outra Aba: react-native run android (ou --devideId=888xxx888xxx para selecionar o device).
+(12) * Na pasta "Dev2018 > Mobile (React) > Bugs" estão os principais erros que podem ocorrer.
+
+------------------------------------------------------------------------------------------------------------
