@@ -28,6 +28,7 @@ sudo apt install nodejs
 (2) sudo npm install -g jetifier
 (3) sudo npm install -g react-native-cli
 (4) npm install -g expo-cli
+(5) npm install eslint
 
 Para instalar os Pacotes (que eu uso - nota: final de 2019, até agora):
 
