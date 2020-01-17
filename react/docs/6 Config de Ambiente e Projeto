@@ -37,6 +37,7 @@ Para instalar os Pacotes (que eu uso - nota: final de 2019, até agora):
 (3) npm install react-native-gesture-handler
 (4) npm install react-native-reanimated
 (5) npm install --save react-native-device-info
+(6) npm install --save @react-native-community/async-storage
 
 * Para clonar um repositório zerado e restaurar o Projeto e fazer rodar:
 
