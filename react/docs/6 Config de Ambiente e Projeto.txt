@@ -41,6 +41,8 @@ Para instalar os Pacotes (que eu uso - nota: final de 2019, até agora):
 (7) npm install react-native-imei --save
 
 * Para clonar um repositório zerado e restaurar o Projeto e fazer rodar:
+NOTA IMPORTANTE: No Windows use o CMD clássico. O PowerShell tem restrições pra rodar .BAT e dentro do diretório "Android" existe um
+gradlew.bat que o projeto roda pra limpar algumas coisas - esse arquivo não consegue rodar e ai o projeto não sobe! Use o CMD!
 
 (1) Clone o repositório (nesse caso assetscontrol)
 (2) Entre na pasta Mobile e remova os arquivos *.lock caso existam.
