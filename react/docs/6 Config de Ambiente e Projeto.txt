@@ -42,6 +42,7 @@ Para instalar os Pacotes (que eu uso - nota: final de 2019, até agora):
 (8) npm install react-native-background-job --save
 (9) npm i -S react-native-get-location
 (10) I think that backgroundjob and location needs the "link"
+(11) On REAL Devices "get-location" packages needs a REBOOT of the Device to Work (i don't know why)
 
 * Para clonar um repositório zerado e restaurar o Projeto e fazer rodar:
 NOTA IMPORTANTE: No Windows use o CMD clássico. O PowerShell tem restrições pra rodar .BAT e dentro do diretório "Android" existe um
