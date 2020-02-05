@@ -62,4 +62,9 @@ sdk.dir = /home/fernandopassaia/Android/Sdk
 (11) Na outra Aba: react-native run android (ou --devideId=888xxx888xxx para selecionar o device).
 (12) * Na pasta "Dev2018 > Mobile (React) > Bugs" estão os principais erros que podem ocorrer.
 
+
+Como debuggar Código React-Native:
+Opção 1: No terminal rode "react-native log-android" e deixe rodando. Em outro terminal o "run-android."
+Opção 2: adb logcat -s ReactNative:V ReactNativeJS:V no terminal.
+
 ------------------------------------------------------------------------------------------------------------
