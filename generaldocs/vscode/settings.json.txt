@@ -17,5 +17,7 @@
         "javascript": "javascriptreact",
     },
     "powermode.enabled": true,
-    "powermode.presets": "flames"
+    "powermode.presets": "flames",
+    "csharpfixformat.style.spaces.beforeParenthesis": false,
+    "csharpfixformat.style.spaces.afterParenthesis": false
 }
