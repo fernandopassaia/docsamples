@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "vscode-icons",
     "editor.minimap.enabled": false,
     "vsicons.projectDetection.disableDetect": true,
@@ -12,10 +12,7 @@
     "vsicons.dontShowNewVersionMessage": true,
     "editor.fontLigatures": true,
     "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
-    "editor.fontSize": 12.5,
-    "eemet.syntaxProfiles": {
-        "javascript": "jsx",
-    },
+    "editor.fontSize": 12,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
     },
