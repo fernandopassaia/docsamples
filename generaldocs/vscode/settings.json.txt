@@ -1,23 +1,18 @@
 {
-    "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "vscode-icons",
-    "editor.minimap.enabled": false,
-    "vsicons.projectDetection.disableDetect": true,
-    "explorer.confirmDelete": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "editor.formatOnSave": true,
-    "window.zoomLevel": 0,
-    "csharp.referencesCodeLens.enabled": false,
-    "vsicons.dontShowNewVersionMessage": true,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
-    "editor.fontSize": 12,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-    },
-    "powermode.enabled": true,
-    "powermode.presets": "flames",
-    "csharpfixformat.style.spaces.beforeParenthesis": false,
-    "csharpfixformat.style.spaces.afterParenthesis": false
+  "workbench.colorTheme": "Dracula",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 0,
+  "csharp.referencesCodeLens.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
+  "editor.fontSize": 12,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "powermode.enabled": true,
+  "powermode.presets": "flames"
 }
