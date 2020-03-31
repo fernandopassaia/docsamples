@@ -9,10 +9,12 @@
   "csharp.referencesCodeLens.enabled": false,
   "editor.fontLigatures": true,
   "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "powermode.enabled": true,
-  "powermode.presets": "flames"
+  "powermode.presets": "flames",
+  "workbench.iconTheme": "vscode-icons"
 }
+
