@@ -4,6 +4,8 @@ Here i will put some examples in JS (Node, Angular (Typescript), React, Vue), so
 i've done while studies (like Docker, Azure, and stuffs). Also there're some open projects that can be used
 to build something real for production.
 
+Note: "GeneralDocs" contains most of the Languages Commands, CLI, Terminal, PrintScreen, Config and others.
+
 Note: Some folders have an underline with 2 words on the end. This two words are relative to a Teacher who
 gaves a course:
 

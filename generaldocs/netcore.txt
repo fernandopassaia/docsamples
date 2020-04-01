@@ -8,6 +8,9 @@ dotnet run (roda o app)
 dotnet new web (cria um novo aplicativo web)
 dotnet watch run (ele fica olhando os .cs na pasta, se houver alteração, ele para e executa de novo)
 
+Publish de Aplicação:
+dotnet publish -c Release -r win-x64 --output ./MobileControl.Publish MobileControl.sln
+
 ------------------------------------------------------------------------------------------------------------
 
 Commands EF Core:
