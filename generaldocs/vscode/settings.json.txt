@@ -1,20 +1,19 @@
 {
-  "workbench.colorTheme": "Dracula",
-  "editor.minimap.enabled": false,
-  "explorer.confirmDelete": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDragAndDrop": false,
-  "editor.formatOnSave": true,
-  "window.zoomLevel": 0,
-  "csharp.referencesCodeLens.enabled": false,
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
-  "editor.fontSize": 13,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "powermode.enabled": true,
-  "powermode.presets": "flames",
-  "workbench.iconTheme": "vscode-icons"
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "csharp.referencesCodeLens.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Cascadia Code, Consolas, Courier New, monospace",
+    "editor.fontSize": 13,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "workbench.iconTheme": "material-icon-theme"
 }
-
