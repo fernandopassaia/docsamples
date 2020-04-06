@@ -7,6 +7,8 @@ Instalar o Angular Material: npm i --s @angular/material @angular/cdk @angular/a
 Para criar o projeto: ng new NomeProjeto
 Para criar um componente: ng g c employees/employee --spec=false (spec ignora o arquivo de teste)
 Para criar um componente: ng g c employees/employee --spec=false --module=app.module.ts (se tiver + de 1)
+Pra criar componente (dentro da pasta app do Angular onde ficam os componentes): 
+ng g c equipment-backgroundtask/equipment-backgroundtask --spec=false --module=/modules/assetscontrol.module.ts
 Para criar um serviço: ng g s shared/employee (um serviço, por exemplo pra consultar dados)
 Para criar um modulo: ng g m material (como um componente pra agrupar os imports de Angular Material)
 ------------------------------------------------------------------------------------------------------------
