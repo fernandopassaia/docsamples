@@ -19,12 +19,18 @@ git clone https://github.com/projeto.git
 git clone https://github.com/projeto.git nomeProjetoLocal (eu posso dar outro nome pra ele ter local na minha máquina)
 
 --------------------------------------------------------------------------------------------------------
-
 Caso o pull dê pau por que ele diz que os arquivos locais são diferentes (pra forçar o download):
 git fetch --all
 git reset --hard origin/master
 git pull origin master
 OR: "git branch -d develop" and a "git checkout develop"
+--------------------------------------------------------------------------------------------------------
+Para criar uma nova branch:
+git branch
+git checkout -b updated_readme
+git add README.md
+git commit (will open a text editor) or -m "something"
+git push
 --------------------------------------------------------------------------------------------------------
 
 git diff (mostra diferença entre local e online) (para sair digite "q")
