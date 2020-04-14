@@ -22,11 +22,43 @@ Registry: É o repositório de imagens prontas para criar containers.
 https://hub.docker.com
 https://hub.docker.com/r/microsoft/dotnet
 
+
+------------------------------------------------------------------------------------------------------------
+
+Instala o Docker:
+ sudo apt-get update
+
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+
+Adiciona o Usuário Atual no Grupo do Docker:
+sudo usermod -aG docker $USER
+
 Ubuntu - dica pra rodar o Docker no terminal sem precisar dar sudo toda hora:
 sudo groupadd docker
 sudo gpasswd -a fernandopassaia docker
 sudo service docker restart
 newgrp Docker
+
+
+------------------------------------------------------------------------------------------------------------
+
 
 Principais comandos do Docker:
 

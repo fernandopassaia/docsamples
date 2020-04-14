@@ -1,0 +1,34 @@
+General Annotattions for Linux Ubuntu:
+
+
+Terminal:
+ls (show directories)
+ls -l (show directories with details)
+ls -la (include hidden files)
+
+whoami (show my user)
+pwd (print working directory)
+cd $HOME or CD ~ (go back home - my user directory) so: cd ~/Dev will go to home/fernandopassaia/Dev
+
+------------------------------------------------------------------------------------------------------------
+
+Mount Devices:
+/dev (the folder where are my devices)
+df -h (list devices - if i plug a pendrive, i'll see a service that mount the device here)
+
+------------------------------------------------------------------------------------------------------------
+
+Managing Files:
+touch a.txt (will 'touch' a archive - create it)
+echo "hello world" > a.txt (will write on it removing whats before)
+echo "second text" >> a.txt (will write on it keeping whats on file)
+cat a.txt (concatenate archive - will print on console)
+
+ps a.txt (will do the same of cat)
+ps a.txt | less (if i need to read big files) (j and k go upper/down)
+
+mkdir test (create directory)
+mv a.txt test (move arquivo)
+cp a.txt test (copy arquivo)
+rm a.txt (delete file)
+rm -Rf test (delete directory)
