@@ -75,6 +75,9 @@ dotnet add reference ../AppFullStackDemo.Domain/
 cd ..
 cd AppFullStackDemo.Domain.Tests
 dotnet add reference ../AppFullStackDemo.Domain/
+cd ..
+cd AppFullStackDemo.Infra
+dotnet add package Microsoft.EntityFrameworkCore --version 3.1.3
 
 
 ------------------------------------------------------------------------------------------------------------
