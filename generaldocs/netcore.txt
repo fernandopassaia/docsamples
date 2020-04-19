@@ -35,6 +35,50 @@ Baseado Projeto: dotnet publish -c Release -r win-x64 --output ../MobileControl.
 
 ------------------------------------------------------------------------------------------------------------
 
+Commands to Create Projects, Create Solution File and Link Everything (Building an entire project):
+
+mkdir BackEnd
+cd BackEnd
+mkdir AppFullStackDemo.Domain
+mkdir AppFullStackDemo.Domain.Tests
+mkdir AppFullStackDemo.Shared
+mkdir AppFullStackDemo.Infra
+mkdir AppFullStackDemo.Api
+cd AppFullStackDemo.Domain
+dotnet new classlib
+cd ..
+cd AppFullStackDemo.Domain.Tests
+dotnet new mstest
+cd ..
+cd AppFullStackDemo.Shared
+dotnet new classlib
+cd ..
+cd AppFullStackDemo.Infra
+dotnet new classlib
+cd ..
+cd AppFullStackDemo.Api
+dotnet new webapi
+cd ..
+dotnet new sln
+dotnet sln add ./AppFullStackDemo.Domain/
+dotnet sln add ./AppFullStackDemo.Domain.Tests/
+dotnet sln add ./AppFullStackDemo.Shared/
+dotnet sln add ./AppFullStackDemo.Infra/
+dotnet sln add ./AppFullStackDemo.Api/
+dotnet build
+cd AppFullStackDemo.Api
+dotnet add reference ../AppFullStackDemo.Domain/
+dotnet add reference ../AppFullStackDemo.Infra/
+cd ..
+cd AppFullStackDemo.Infra
+dotnet add reference ../AppFullStackDemo.Domain/
+cd ..
+cd AppFullStackDemo.Domain.Tests
+dotnet add reference ../AppFullStackDemo.Domain/
+
+
+------------------------------------------------------------------------------------------------------------
+
 Commands EF Core:
 dotnet ef --startup-project ../AssetsControl.Api/ migrations add FirstBase (na pasta Infra)
 dotnet ef --startup-project ../AssetsControl.Api/ database update (na pasta Infra) OU

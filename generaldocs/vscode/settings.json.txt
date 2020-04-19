@@ -18,8 +18,5 @@
   "git.autofetch": true, // Habilita Auto Fetch do GIT  
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  },
-  "[json]": {
-  
   }
 }
