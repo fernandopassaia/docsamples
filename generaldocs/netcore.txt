@@ -75,12 +75,30 @@ cd ..
 cd AppFullStackDemo.Domain.Tests
 dotnet add reference ../AppFullStackDemo.Domain/
 cd ..
+cd AppFullStackDemo.Api
+dotnet add package Microsoft.EntityFrameworkCore.Design (also needs on API, else migrations do not run)
+cd ..
 cd AppFullStackDemo.Infra
 dotnet add package Microsoft.EntityFrameworkCore --version 3.1.3
 dotnet add package Microsoft.EntityFrameworkCore.Relational
+dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Newtonsoft.Json
 dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
 
+
+Note, after the First Push i did 2 gitignores to ignore some files with my connectionstrings. On the END
+of the project (last deploy) i need to include then again (with fake-connectionstrings) to works:
+
+git rm --cached appsettings.json (on API folder)
+git rm --cached AppFullStackDemoContext.cs (on Infra > Context folder)
+
+And also added those files to gitignore file on the end:
+*.appsettings.json
+src/BackEnd/AppFullStackDemo.Api/appsettings.json
+appsettings.json
+*.AppFullStackDemoContext.cs
+src/BackEnd/AppFullStackDemo.Infra/Context/AppFullStackDemoContext.cs
+*.AppFullStackDemoContext
 
 ------------------------------------------------------------------------------------------------------------
 
