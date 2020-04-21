@@ -16,8 +16,12 @@ git mv NomeDaPastaAntiga NovoNome (renomeia pasta, precisam estar todos arquivos
 
 --------------------------------------------------------------------------------------------------------
 git clone https://github.com/projeto.git
-git clone https://github.com/projeto.git nomeProjetoLocal (eu posso dar outro nome pra ele ter local na minha máquina)
+git clone https://github.com/projeto.git nomeProjetoLocal (eu posso dar outro nome pra ele ter local)
+--------------------------------------------------------------------------------------------------------
+Se você SUBIR um arquivo e depois quiser que esse arquivo seja IGNORADO no próximo PUSH (pra ele nunca
+mais subir o arquivo e ignorar ele) - rode na pasta do arquivo:
 
+git rm --cached appsettings.json
 --------------------------------------------------------------------------------------------------------
 Caso o pull dê pau por que ele diz que os arquivos locais são diferentes (pra forçar o download):
 git fetch --all
@@ -58,7 +62,7 @@ When you have Submodules - FutureOfMedia Fidelitas Repo, you'll need to do this 
 git clone --recurse-submodules
 
 git clone --recursive git@bitbucket.org:futureofmedia/fidelitasgroup.git
-git submodule foreach git checkout develop (With this command i'll switch all Repositories to Develop Branch)
+git submodule foreach git checkout develop (With this command i'll switch all Repositories to Develop)
 
 git submodule init
 git submodule update

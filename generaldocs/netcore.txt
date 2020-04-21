@@ -1,6 +1,5 @@
 DotNet Core Documentation:
 
-
 For Install:
 wget https://packages.microsoft.com/config/ubuntu/19.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
@@ -78,6 +77,9 @@ dotnet add reference ../AppFullStackDemo.Domain/
 cd ..
 cd AppFullStackDemo.Infra
 dotnet add package Microsoft.EntityFrameworkCore --version 3.1.3
+dotnet add package Microsoft.EntityFrameworkCore.Relational
+dotnet add package Newtonsoft.Json
+dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
 
 
 ------------------------------------------------------------------------------------------------------------
