@@ -21,7 +21,17 @@ git clone https://github.com/projeto.git nomeProjetoLocal (eu posso dar outro no
 Se você SUBIR um arquivo e depois quiser que esse arquivo seja IGNORADO no próximo PUSH (pra ele nunca
 mais subir o arquivo e ignorar ele) - rode na pasta do arquivo:
 
-git rm --cached appsettings.json
+git rm --cached appsettings.json (on API folder)
+git rm --cached AppFullStackDemoContext.cs (on Infra > Context folder)
+
+E também precisa adicionar eles ao gitignore:
+*.appsettings.json
+src/BackEnd/AppFullStackDemo.Api/appsettings.json
+appsettings.json
+*.AppFullStackDemoContext.cs
+src/BackEnd/AppFullStackDemo.Infra/Context/AppFullStackDemoContext.cs
+*.AppFullStackDemoContext
+
 --------------------------------------------------------------------------------------------------------
 Caso o pull dê pau por que ele diz que os arquivos locais são diferentes (pra forçar o download):
 git fetch --all
