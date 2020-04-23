@@ -107,3 +107,14 @@ dotnet ef --startup-project ../AssetsControl.Api/ migrations add FirstBase (na p
 dotnet ef --startup-project ../AssetsControl.Api/ database update (na pasta Infra) OU
 dotnet ef database update (na pasta API)
 dotnet ef migrations remove
+
+------------------------------------------------------------------------------------------------------------
+Fixes for Linux:
+
+sudo sysctl fs.inotify.max_user_watches=1024 (default watch files was 128, increase it because VSCode needs
+to watch more files of the project)
+
+cat /proc/sys/fs/inotify/max_user_watches (vai mostrar quantos arquivos pode monitorar)
+sudo nano /etc/sysctl.conf (and past the line below on the end of the file)
+fs.inotify.max_user_watches=524288
+sudo sysctl -p (to reload)
