@@ -22,7 +22,7 @@ npm install -g @angular/cli@7.3.8
 ng --version (vai mostrar a versão)
 
 Do Angular Material e Angular Core:
-npm install -g -save @angular/cli @angular/core @angular/material @angular/cdk @angular/animations
+sudo npm install -g -save @angular/cli @angular/core @angular/material @angular/cdk @angular/animations
 npm uninstall @angular/core
 npm install -S @angular/core
 npm install -g json-server (caso eu vá usar o servidor temporário)
