@@ -68,7 +68,7 @@
       "useAcrylic": true,
       "cursorColor": "#FFFFFF",
       "cursorShape": "bar",
-      "fontFace": "Source Code Pro SemiBold",
+      "fontFace": "Cascadia Code PL",
       "fontSize": 11,
       "closeOnExit": true,
       "colorScheme": "PassaiaTheme",
@@ -104,7 +104,9 @@
       "brightCyan": "#9c637a",
       "brightWhite": "#f5f7ff",
       "background": "#202746",
-      "foreground": "#979db4"
+      "foreground": "#979db4",
+      "backgroundImageOpacity": 0.2
+
     }
   ],
   // Add any keybinding overrides to this array.
