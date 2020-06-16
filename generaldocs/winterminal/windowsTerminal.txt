@@ -1,91 +1,113 @@
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "profiles": [
-        {
-            "acrylicOpacity": 0.75,
-            "useAcrylic": true,
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "fontFace": "Cascadia Code",
-            "fontSize": 9,
-            "closeOnExit": true,
-            "colorScheme": "Campbell",
-            "padding": "0, 0, 0, 0",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "startingDirectory": ".",
-            //above is the common lines, below is what needs to be change
-            "tabTitle": "powershell",
-            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-            "name": "PowerShell",
-            "commandline": "powershell.exe"
-        },
-        {
-            "acrylicOpacity": 0.75,
-            "useAcrylic": true,
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "fontFace": "Cascadia Code",
-            "fontSize": 9,
-            "closeOnExit": true,
-            "colorScheme": "Campbell",
-            "padding": "0, 0, 0, 0",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "startingDirectory": ".",
-            //above is the common lines, below is what needs to be change
-            "tabTitle": "cmd",
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "name": "Cmd",
-            "icon": "C:\\Dev\\docsamples\\generaldocs\\windowsTerminal\\ico\\cmd.png",
-            "commandline": "cmd.exe"
-        },
-        {
-            "acrylicOpacity": 0.75,
-            "useAcrylic": true,
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "fontFace": "Cascadia Code",
-            "fontSize": 9,
-            "closeOnExit": true,
-            "colorScheme": "Campbell",
-            "padding": "0, 0, 0, 0",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "startingDirectory": ".",
-            //above is the common lines, below is what needs to be change
-            "tabTitle": "gitbash",
-            "guid": "{00000000-0000-0000-ba54-000000000002}",
-            "name": "GitBash",
-            "icon": "C:\\Dev\\docsamples\\generaldocs\\windowsTerminal\\ico\\gitbash.png",
-            "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l"
-        },
-        {
-            "acrylicOpacity": 0.75,
-            "useAcrylic": true,
-            "cursorColor": "#FFFFFF",
-            "cursorShape": "bar",
-            "fontFace": "Cascadia Code",
-            "fontSize": 9,
-            "closeOnExit": true,
-            "colorScheme": "Campbell",
-            "padding": "0, 0, 0, 0",
-            "historySize": 9001,
-            "snapOnInput": true,
-            "startingDirectory": ".",
-            //above is the common lines, below is what needs to be change
-            "tabTitle": "azure",
-            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            "name": "Azure Cloud Shell",
-            "source": "Windows.Terminal.Azure"
-        }
-    ],
-    // Add custom color schemes to this array
-    "schemes": [],
-    // Add any keybinding overrides to this array.
-    // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": []
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "profiles": [
+    {
+      "acrylicOpacity": 0.75,
+      "useAcrylic": true,
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontFace": "Cascadia Code PL",
+      "fontSize": 12,
+      "closeOnExit": true,
+      "colorScheme": "PassaiaTheme",
+      "padding": "0, 0, 0, 0",
+      "historySize": 9001,
+      "snapOnInput": true,
+      "startingDirectory": ".",
+      //above is the common lines, below is what needs to be change
+      "tabTitle": "powershell",
+      "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+      "name": "PowerShell",
+      "commandline": "powershell.exe"
+    },
+    {
+      "acrylicOpacity": 0.75,
+      "useAcrylic": true,
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontFace": "Cascadia Code PL",
+      "fontSize": 12,
+      "closeOnExit": true,
+      "colorScheme": "PassaiaTheme",
+      "padding": "0, 0, 0, 0",
+      "historySize": 9001,
+      "snapOnInput": true,
+      "startingDirectory": ".",
+      //above is the common lines, below is what needs to be change
+      "tabTitle": "cmd",
+      "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+      "name": "Cmd",
+      "icon": "C:\\Dev\\docsamples\\generaldocs\\windowsTerminal\\ico\\cmd.png",
+      "commandline": "cmd.exe"
+    },
+    {
+      "acrylicOpacity": 0.75,
+      "useAcrylic": true,
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontFace": "Cascadia Code PL",
+      "fontSize": 12,
+      "closeOnExit": true,
+      "colorScheme": "PassaiaTheme",
+      "padding": "0, 0, 0, 0",
+      "historySize": 9001,
+      "snapOnInput": true,
+      "startingDirectory": ".",
+      //above is the common lines, below is what needs to be change
+      "tabTitle": "gitbash",
+      "guid": "{00000000-0000-0000-ba54-000000000002}",
+      "name": "GitBash",
+      "icon": "C:\\Dev\\docsamples\\generaldocs\\windowsTerminal\\ico\\gitbash.png",
+      "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l"
+    },
+    {
+      "acrylicOpacity": 0.75,
+      "useAcrylic": true,
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontFace": "Cascadia Code PL",
+      "fontSize": 12,
+      "closeOnExit": true,
+      "colorScheme": "PassaiaTheme",
+      "padding": "0, 0, 0, 0",
+      "historySize": 9001,
+      "snapOnInput": true,
+      "startingDirectory": ".",
+      //above is the common lines, below is what needs to be change
+      "tabTitle": "azure",
+      "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+      "name": "Azure Cloud Shell",
+      "source": "Windows.Terminal.Azure"
+    }
+  ],
+  // Add custom color schemes to this array
+  "schemes": [
+    {
+      "name": "PassaiaTheme",
+      "black": "#202746",
+      "red": "#c94922",
+      "green": "#ac9739",
+      "yellow": "#c08b30",
+      "blue": "#3d8fd1",
+      "purple": "#6679cc",
+      "cyan": "#22a2c9",
+      "white": "#979db4",
+      "brightBlack": "#6b7394",
+      "brightRed": "#c76b29",
+      "brightGreen": "#293256",
+      "brightYellow": "#5e6687",
+      "brightBlue": "#898ea4",
+      "brightPurple": "#dfe2f1",
+      "brightCyan": "#9c637a",
+      "brightWhite": "#f5f7ff",
+      "background": "#202746",
+      "foreground": "#979db4"
+    }
+  ],
+  // Add any keybinding overrides to this array.
+  // To unbind a default keybinding, set the command to "unbound"
+  "keybindings": []
 }
