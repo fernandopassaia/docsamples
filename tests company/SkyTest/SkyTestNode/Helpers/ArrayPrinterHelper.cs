@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace SkyTestNode.Helpers
 {
@@ -9,6 +9,7 @@ namespace SkyTestNode.Helpers
         public static void Print(IList<int> subItems)
         {
             string consoleOutput = "";
+            subItems = subItems.Reverse().ToArray();
             foreach (var item in subItems)
             {
                 consoleOutput += item + ", ";
