@@ -8,12 +8,10 @@ namespace SkyTestNode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             // note: in a real project, I`ll inject over constructor a implementation of INodeRepository using DI
             // but because this is just a sample, I`ll not install and configure DI and other things...
             NodeRepository nodeRepo = new NodeRepository();
-            ArrayPrinterHelper.Print(NodeValuesHelper.extractNodeValues(nodeRoot));            
+            ArrayPrinterHelper.Print(NodeValuesHelper.extractNodeValues(nodeRepo.GetNodeRoot()));            
             Console.ReadKey();
         }        
     }
