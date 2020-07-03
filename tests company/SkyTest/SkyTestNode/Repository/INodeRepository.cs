@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using SkyTestNode.Entity;
 
 namespace SkyTestNode.Repository
 {
-
     interface INodeRepository
     {
+        Node GetNodeRoot();
     }
 }
