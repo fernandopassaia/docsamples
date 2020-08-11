@@ -1,25 +1,28 @@
 {
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Source Code Pro SemiBold, Cascadia Code",
-  "editor.fontSize": 13,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 0.65,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.panel.defaultLocation": "bottom", // Deixa o terminal a direita  
-  "workbench.startupEditor": "newUntitledFile", // Abre sempre um arquivo em branco  
-  "workbench.colorTheme": "Atom One Dark",
-  "terminal.integrated.cursorStyle": "underline", // Deixa o cursor do terminal como underline  
-  "terminal.integrated.fontSize": 13, // Tamanho da fonte do terminal  
-  "git.enableSmartCommit": true, // Habilita Smart Commit do GIT  
-  "git.autofetch": true, // Habilita Auto Fetch do GIT  
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Source Code Pro SemiBold, Cascadia Code",
+    "editor.fontSize": 12,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.panel.defaultLocation": "bottom", // Deixa o terminal a direita  
+    "workbench.startupEditor": "newUntitledFile", // Abre sempre um arquivo em branco  
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.cursorStyle": "underline", // Deixa o cursor do terminal como underline  
+    "terminal.integrated.fontSize": 13, // Tamanho da fonte do terminal  
+    "git.enableSmartCommit": true, // Habilita Smart Commit do GIT  
+    "git.autofetch": true, // Habilita Auto Fetch do GIT  
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
     "[json]": {
-    
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
     }
 }

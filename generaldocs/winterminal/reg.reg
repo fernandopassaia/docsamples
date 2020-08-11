@@ -5,4 +5,4 @@ Windows Registry Editor Version 5.00
 "Icon"="C:\\Dev\\docsamples\\generaldocs\\winTerminal\\ico\\wt.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
-@="C:\\Users\\FernandoPassaia\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
+@="C:\\Users\\PassaiaDeAlencarFern\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
