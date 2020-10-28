@@ -17,6 +17,7 @@ git mv NomeDaPastaAntiga NovoNome (renomeia pasta, precisam estar todos arquivos
 --------------------------------------------------------------------------------------------------------
 git clone https://github.com/projeto.git
 git clone https://github.com/projeto.git nomeProjetoLocal (eu posso dar outro nome pra ele ter local)
+git clone -b develop https://github.com/projeto (baixa branch DEVELOP)
 --------------------------------------------------------------------------------------------------------
 Se você SUBIR um arquivo e depois quiser que esse arquivo seja IGNORADO no próximo PUSH (pra ele nunca
 mais subir o arquivo e ignorar ele) - rode na pasta do arquivo:
